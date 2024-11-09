@@ -1,8 +1,0 @@
-{
-	"parent": "tfc:block/wood/support/inventory_vex",
-	"textures": {
-		"vertical": 	"tfc:block/wood/support/vertical/aspen",
-		"horizontal": 	"tfc:block/wood/support/horizontal/aspen",
-		"top": 			"tfc:block/wood/support/top/aspen"
-	}
-}
