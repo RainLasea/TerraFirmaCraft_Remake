@@ -3,7 +3,7 @@ PlayerEvents.inventoryOpened((event) => {
     const { inventoryContainer, player } = event;
 
     if (inventoryContainer instanceof $KnappingContainer) {
-        player.triggerAnimation("tfcre:hitstone");
+        player.triggerAnimation("tfcre:hitstone", 1, "linear", false, false);
     }
 });
 PlayerEvents.inventoryClosed((event) => {
@@ -14,10 +14,10 @@ PlayerEvents.inventoryClosed((event) => {
     }
 });
 NetworkEvents.dataReceived("global.testKey.consumeClick", (event) => {
-    event.player.triggerAnimation("tfcre:sit");
-});
-AnimationJS.universalController((event) => {
+    event.player.triggerAnimation("tfcre:sit", 1, "linear", false, false);
+  });
+AnimationJS.universalController(event => {
     if (event.player.isMoving()) {
-        event.stopAnimation("tfcre:sit");
+        event.stopAnimation("tfcre:sit")
     }
-});
+})
