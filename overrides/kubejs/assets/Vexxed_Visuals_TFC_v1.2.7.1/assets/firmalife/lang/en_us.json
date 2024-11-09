@@ -1,0 +1,24 @@
+{
+	"block.firmalife.solar_drier": 						"Solar Dryer",
+	"firmalife.block_entity.solar_drier": 				"Solar Dryer",
+	"config.jade.plugin_firmalife.solar_drier": 		"Solar Dryer",
+	"block.firmalife.treated_wood": 					"Treated Planks",
+	
+	"firmalife.bee.ability.hardiness": 					"\u00A7f\uFB14\u00A7r Hardiness %s",
+	"firmalife.bee.ability.production": 				"\u00A7f\uFB18\u00A7r Production %s",
+	"firmalife.bee.ability.mutant": 					"\u00A7f\uFB15\u00A7r Mutant %s",
+	"firmalife.bee.ability.fertility": 					"\u00A7f\uFB12\u00A7r Fertility %s",
+	"firmalife.bee.ability.crop_affinity": 				"\u00A7f\uFB11\u00A7r Crop Affinity %s",
+	"firmalife.bee.ability.nature_restoration": 		"\u00A7f\uFB16\u00A7r Nature Restoration %s",
+	"firmalife.bee.ability.calmness": 					"\u00A7f\uFB10\u00A7r Calmness %s",
+	"firmalife.bee.genetic_disease": 					"\u00A7f\uFB13\u00A7r Genetic Disease: %s",
+	"firmalife.bee.parasitic_infection": 				"\u00A7f\uFB17\u00A7r Parasitic Infection: %s",
+	
+	"firmalife.tooltip.planter_usable": 				"§7Greenhouse Planter: §r%s",
+	"firmalife.enum.plantertype.hanging": 				"Hanging",
+	"firmalife.enum.plantertype.trellis": 				"Trellis",
+	"firmalife.enum.plantertype.bonsai": 				"Bonsai",
+	"firmalife.enum.plantertype.quad": 					"Quad",
+	"firmalife.enum.plantertype.large": 				"Large",
+	"firmalife.enum.plantertype.hydroponic": 			"Hydroponic"
+}

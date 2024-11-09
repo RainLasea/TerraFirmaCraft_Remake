@@ -1,0 +1,22 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"particle": "tfc:block/fruit_tree/cherry_branch",
+		"bark": "tfc:block/fruit_tree/cherry_branch"
+	},
+	"elements": [
+		{
+			"from": [0, 4, 5],
+			"to": [5, 10, 11],
+			"rotation": {"angle": 0, "axis": "y", "origin": [12, 12, 14]},
+			"faces": {
+				"north": {"uv": [10, 6, 16, 11], "rotation": 90, "texture": "#bark"},
+				"east": {"uv": [10, 10, 16, 16], "rotation": 90, "texture": "#bark"},
+				"south": {"uv": [10, 6, 16, 11], "rotation": 90, "texture": "#bark"},
+				"west": {"uv": [10, 10, 16, 16], "rotation": 90, "texture": "#bark"},
+				"up": {"uv": [10, 0, 16, 5], "rotation": 90, "texture": "#bark"},
+				"down": {"uv": [10, 0, 16, 5], "rotation": 90, "texture": "#bark"}
+			}
+		}
+	]
+}

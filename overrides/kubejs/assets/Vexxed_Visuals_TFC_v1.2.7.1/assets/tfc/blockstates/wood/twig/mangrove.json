@@ -1,0 +1,36 @@
+{
+	"variants": {
+		"": [
+			{
+				"model": "tfc:block/wood/twig/mangrove"
+			},
+			{
+				"model": "tfc:block/wood/twig/mangrove",
+				"y": 90
+			},
+			{
+				"model": "tfc:block/wood/twig/mangrove",
+				"y": 180
+			},
+			{
+				"model": "tfc:block/wood/twig/mangrove",
+				"y": 270
+			},
+			{
+				"model": "tfc:block/wood/twig/45/mangrove"
+			},
+			{
+				"model": "tfc:block/wood/twig/45/mangrove",
+				"y": 90
+			},
+			{
+				"model": "tfc:block/wood/twig/45/mangrove",
+				"y": 180
+			},
+			{
+				"model": "tfc:block/wood/twig/45/mangrove",
+				"y": 270
+			}
+		]
+	}
+}

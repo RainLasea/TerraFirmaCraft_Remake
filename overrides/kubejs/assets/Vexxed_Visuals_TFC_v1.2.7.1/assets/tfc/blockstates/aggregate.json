@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "tfc:block/aggregate"
+      },
+      {
+        "model": "tfc:block/aggregate",
+        "y": 90
+      },
+      {
+        "model": "tfc:block/aggregate",
+        "y": 180
+      },
+      {
+        "model": "tfc:block/aggregate",
+        "y": 270
+      }
+    ]
+  }
+}

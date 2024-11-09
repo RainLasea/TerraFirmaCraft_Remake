@@ -1,0 +1,90 @@
+{
+	"variants": {
+		"": [
+			{
+				"model": "tfc:block/rock/raw/quartzite"
+			},
+			{
+				"model": "tfc:block/rock/raw/mirrored/quartzite"
+			},
+			{
+				"model": "tfc:block/rock/raw/quartzite",
+				"y": 90
+			},
+			{
+				"model": "tfc:block/rock/raw/mirrored/quartzite",
+				"y": 90
+			},
+			{
+				"model": "tfc:block/rock/raw/quartzite",
+				"y": 180
+			},
+			{
+				"model": "tfc:block/rock/raw/mirrored/quartzite",
+				"y": 180
+			},
+			{
+				"model": "tfc:block/rock/raw/quartzite",
+				"y": 270
+			},
+			{
+				"model": "tfc:block/rock/raw/mirrored/quartzite",
+				"y": 270
+			},
+			{
+				"model": "tfc:block/rock/raw/quartzite",
+				"x": 90
+			},
+			{
+				"model": "tfc:block/rock/raw/mirrored/quartzite",
+				"x": 90
+			},
+			{
+				"model": "tfc:block/rock/raw/quartzite",
+				"x": 180
+			},
+			{
+				"model": "tfc:block/rock/raw/mirrored/quartzite",
+				"x": 180
+			},
+			{
+				"model": "tfc:block/rock/raw/quartzite",
+				"x": 270
+			},
+			{
+				"model": "tfc:block/rock/raw/mirrored/quartzite",
+				"x": 270
+			},
+			{
+				"model": "tfc:block/rock/raw/quartzite",
+				"x": 90,
+				"y": 90
+			},
+			{
+				"model": "tfc:block/rock/raw/mirrored/quartzite",
+				"x": 90,
+				"y": 90
+			},
+			{
+				"model": "tfc:block/rock/raw/quartzite",
+				"x": 180,
+				"y": 180
+			},
+			{
+				"model": "tfc:block/rock/raw/mirrored/quartzite",
+				"x": 180,
+				"y": 180
+			},
+			{
+				"model": "tfc:block/rock/raw/quartzite",
+				"x": 270,
+				"y": 270
+			},
+			{
+				"model": "tfc:block/rock/raw/mirrored/quartzite",
+				"x": 270,
+				"y": 270
+			}
+		]
+	}
+}

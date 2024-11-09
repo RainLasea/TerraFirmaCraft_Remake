@@ -1,0 +1,30 @@
+{
+	"variants": {
+		"": [
+			{
+				"model": "tfc:block/wood/leaves/aspen"
+			},
+			{
+				"model": "tfc:block/wood/leaves/mirrored/aspen"
+			},
+			{
+				"model": "tfc:block/wood/leaves/aspen",
+				"y": 180
+			},
+			{
+				"model": "tfc:block/wood/leaves/mirrored/aspen",
+				"y": 180
+			},
+			{
+				"model": "tfc:block/wood/leaves/aspen",
+				"x": 180,
+				"z": 180
+			},
+			{
+				"model": "tfc:block/wood/leaves/mirrored/aspen",
+				"x": 180,
+				"z": 180
+			}
+		]
+	}
+}

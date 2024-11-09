@@ -1,0 +1,4 @@
+{"parent":"tfc:block/rock/anvil","textures":{
+	"texture":"tfc:block/rock/raw/dacite",
+	"texture_up":"tfc:block/rock/anvil/dacite"
+}}

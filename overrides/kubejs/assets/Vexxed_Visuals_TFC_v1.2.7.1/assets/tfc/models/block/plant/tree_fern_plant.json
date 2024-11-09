@@ -1,0 +1,23 @@
+{
+	"credit": "Made by Vexxel#9727 with Blockbench || https://github.com/Vexxel || 2022",
+	"ambientocclusion": false,
+	"textures": {
+		"particle": "tfc:block/plant/tree_fern/tree_fern_trunk",
+		"trunk": "tfc:block/plant/tree_fern/tree_fern_trunk"
+	},
+	"elements": [
+		{
+			"from": [5, 0, 5],
+			"to": [11, 16, 11],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 8]},
+			"faces": {
+				"north": {"uv": [5, 0, 11, 16], "texture": "#trunk"},
+				"east": {"uv": [0, 0, 6, 16], "texture": "#trunk"},
+				"south": {"uv": [6, 0, 12, 16], "texture": "#trunk"},
+				"west": {"uv": [10, 0, 16, 16], "texture": "#trunk"},
+				"up": {"uv": [5, 5, 11, 11], "texture": "#trunk"},
+				"down": {"uv": [5, 5, 11, 11], "texture": "#trunk"}
+			}
+		}
+	]
+}

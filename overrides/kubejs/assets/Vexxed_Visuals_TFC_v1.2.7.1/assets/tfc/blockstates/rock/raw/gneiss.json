@@ -1,0 +1,90 @@
+{
+	"variants": {
+		"": [
+			{
+				"model": "tfc:block/rock/raw/gneiss"
+			},
+			{
+				"model": "tfc:block/rock/raw/mirrored/gneiss"
+			},
+			{
+				"model": "tfc:block/rock/raw/gneiss",
+				"y": 90
+			},
+			{
+				"model": "tfc:block/rock/raw/mirrored/gneiss",
+				"y": 90
+			},
+			{
+				"model": "tfc:block/rock/raw/gneiss",
+				"y": 180
+			},
+			{
+				"model": "tfc:block/rock/raw/mirrored/gneiss",
+				"y": 180
+			},
+			{
+				"model": "tfc:block/rock/raw/gneiss",
+				"y": 270
+			},
+			{
+				"model": "tfc:block/rock/raw/mirrored/gneiss",
+				"y": 270
+			},
+			{
+				"model": "tfc:block/rock/raw/gneiss",
+				"x": 90
+			},
+			{
+				"model": "tfc:block/rock/raw/mirrored/gneiss",
+				"x": 90
+			},
+			{
+				"model": "tfc:block/rock/raw/gneiss",
+				"x": 180
+			},
+			{
+				"model": "tfc:block/rock/raw/mirrored/gneiss",
+				"x": 180
+			},
+			{
+				"model": "tfc:block/rock/raw/gneiss",
+				"x": 270
+			},
+			{
+				"model": "tfc:block/rock/raw/mirrored/gneiss",
+				"x": 270
+			},
+			{
+				"model": "tfc:block/rock/raw/gneiss",
+				"x": 90,
+				"y": 90
+			},
+			{
+				"model": "tfc:block/rock/raw/mirrored/gneiss",
+				"x": 90,
+				"y": 90
+			},
+			{
+				"model": "tfc:block/rock/raw/gneiss",
+				"x": 180,
+				"y": 180
+			},
+			{
+				"model": "tfc:block/rock/raw/mirrored/gneiss",
+				"x": 180,
+				"y": 180
+			},
+			{
+				"model": "tfc:block/rock/raw/gneiss",
+				"x": 270,
+				"y": 270
+			},
+			{
+				"model": "tfc:block/rock/raw/mirrored/gneiss",
+				"x": 270,
+				"y": 270
+			}
+		]
+	}
+}

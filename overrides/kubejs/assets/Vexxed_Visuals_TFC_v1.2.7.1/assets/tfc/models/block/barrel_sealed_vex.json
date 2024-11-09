@@ -1,0 +1,69 @@
+{
+	"credit": "Made by Vexxel#9727 with Blockbench || https://github.com/Vexxel || © Vexxel. All rights reserved.",
+	"parent": "block/block",
+	"textures": {
+		"inside": "tfc:block/wood/barrel/inside/oak",
+		"particle": "#outside",
+		"outside": "tfc:block/wood/barrel/outside/oak",
+		"sheet": "tfc:block/wood/sheet/oak"
+	},
+	"elements": [
+		{
+			"from": [3, 1, 3],
+			"to": [13, 15, 13],
+			"rotation": {"angle": 0, "axis": "y", "origin": [2, 0, 2]},
+			"faces": {
+				"up": {"uv": [3, 3, 13, 13], "texture": "#sheet"},
+				"down": {"uv": [3, 3, 13, 13], "texture": "#sheet"}
+			}
+		},
+		{
+			"from": [2, 0, 2],
+			"to": [3, 16, 13],
+			"rotation": {"angle": 0, "axis": "y", "origin": [2, 0, 2]},
+			"faces": {
+				"north": {"uv": [13, 0, 14, 16], "texture": "#outside"},
+				"east": {"uv": [0, 2, 16, 13], "rotation": 90, "texture": "#inside"},
+				"west": {"uv": [2, 0, 13, 16], "texture": "#outside"},
+				"up": {"uv": [1, 2, 2, 13], "texture": "#inside"},
+				"down": {"uv": [1, 2, 2, 13], "texture": "#inside"}
+			}
+		},
+		{
+			"from": [13, 0, 3],
+			"to": [14, 16, 14],
+			"rotation": {"angle": 0, "axis": "y", "origin": [12, 0, 2]},
+			"faces": {
+				"east": {"uv": [2, 0, 13, 16], "texture": "#outside"},
+				"south": {"uv": [13, 0, 14, 16], "texture": "#outside"},
+				"west": {"uv": [0, 2, 16, 13], "rotation": 90, "texture": "#inside"},
+				"up": {"uv": [8, 2, 9, 13], "texture": "#inside"},
+				"down": {"uv": [9, 2, 10, 13], "texture": "#inside"}
+			}
+		},
+		{
+			"from": [3, 0, 2],
+			"to": [14, 16, 3],
+			"rotation": {"angle": 0, "axis": "y", "origin": [2, 0, 2]},
+			"faces": {
+				"north": {"uv": [2, 0, 13, 16], "texture": "#outside"},
+				"east": {"uv": [13, 0, 14, 16], "texture": "#outside"},
+				"south": {"uv": [0, 2, 16, 13], "rotation": 90, "texture": "#inside"},
+				"up": {"uv": [7, 2, 8, 13], "rotation": 90, "texture": "#inside"},
+				"down": {"uv": [7, 2, 8, 13], "rotation": 90, "texture": "#inside"}
+			}
+		},
+		{
+			"from": [2, 0, 13],
+			"to": [13, 16, 14],
+			"rotation": {"angle": 0, "axis": "y", "origin": [2, 0, 12]},
+			"faces": {
+				"north": {"uv": [0, 2, 16, 13], "rotation": 90, "texture": "#inside"},
+				"south": {"uv": [2, 0, 13, 16], "texture": "#outside"},
+				"west": {"uv": [13, 0, 14, 16], "texture": "#outside"},
+				"up": {"uv": [1, 2, 2, 13], "rotation": 90, "texture": "#inside"},
+				"down": {"uv": [1, 2, 2, 13], "rotation": 90, "texture": "#inside"}
+			}
+		}
+	]
+}

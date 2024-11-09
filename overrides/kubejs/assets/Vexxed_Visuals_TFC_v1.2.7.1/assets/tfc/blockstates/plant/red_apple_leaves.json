@@ -1,0 +1,31 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "variants": {
+    "lifecycle=flowering": {
+		"model": "tfc:block/plant/red_apple_flowering_leaves"
+	},
+    "lifecycle=fruiting": [
+      {
+		  "model": "tfc:block/plant/red_apple_fruiting_leaves"
+		},
+		{
+		  "model": "tfc:block/plant/red_apple_fruiting_leaves",
+		  "y": 90
+		},
+		{
+		  "model": "tfc:block/plant/red_apple_fruiting_leaves",
+		  "y": 180
+		},
+		{
+		  "model": "tfc:block/plant/red_apple_fruiting_leaves",
+		  "y": 270
+		}
+    ],
+    "lifecycle=dormant": {
+      "model": "tfc:block/plant/red_apple_dry_leaves"
+    },
+    "lifecycle=healthy": {
+      "model": "tfc:block/plant/red_apple_leaves"
+    }
+  }
+}

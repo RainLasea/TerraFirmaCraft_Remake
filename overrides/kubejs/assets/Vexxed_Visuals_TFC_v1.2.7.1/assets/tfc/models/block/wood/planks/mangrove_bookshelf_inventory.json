@@ -1,0 +1,9 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "parent": "minecraft:block/chiseled_bookshelf_inventory",
+  "textures": {
+    "top": "tfc:block/wood/bookshelf/top/mangrove",
+    "side": "tfc:block/wood/bookshelf/side/mangrove",
+	"front": "tfc:block/wood/planks/mangrove_bookshelf_empty"
+  }
+}

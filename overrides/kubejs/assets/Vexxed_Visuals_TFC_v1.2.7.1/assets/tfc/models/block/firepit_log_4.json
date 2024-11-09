@@ -1,0 +1,24 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "block/block",
+	"textures": {
+		"particle": "tfc:block/devices/firepit/log_lit",
+		"all": "tfc:block/devices/firepit/log_lit"
+	},
+	"elements": [
+		{
+			"name": "Log4",
+			"from": [10, 3, 1],
+			"to": [13, 6, 9],
+			"rotation": {"angle": -22.5, "axis": "x", "origin": [8, 8, 8]},
+			"faces": {
+				"north": {"uv": [0, 12, 4, 16], "texture": "#all"},
+				"east": {"uv": [3, 0, 14, 4], "texture": "#all"},
+				"south": {"uv": [0, 12, 4, 16], "texture": "#all"},
+				"west": {"uv": [3, 0, 14, 4], "texture": "#all"},
+				"up": {"uv": [1, 8, 12, 12], "rotation": 90, "texture": "#all"},
+				"down": {"uv": [2, 4, 13, 8], "rotation": 90, "texture": "#all"}
+			}
+		}
+	]
+}

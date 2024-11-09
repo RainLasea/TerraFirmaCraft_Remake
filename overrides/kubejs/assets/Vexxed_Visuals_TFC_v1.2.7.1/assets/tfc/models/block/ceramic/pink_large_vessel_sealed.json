@@ -1,0 +1,8 @@
+{
+	"parent": "tfc:block/ceramic/large_vessel_b_sealed",
+	"textures": {
+		"top": "tfc:block/ceramic/large_vessel/glazed/pink/top",
+		"side": "tfc:block/ceramic/large_vessel/glazed/pink/side",
+		"bottom": "tfc:block/ceramic/large_vessel/glazed/pink/bottom"
+	}
+}

@@ -1,0 +1,85 @@
+{
+	"providers": [
+		{
+			"type": "bitmap",
+			"file": "minecraft:font/calmness.png",
+			"ascent": 8,
+			"height": 8,
+			"chars": [
+				"\uFB10"
+            ]
+		},
+		{
+			"type": "bitmap",
+			"file": "minecraft:font/crop_affinity.png",
+			"ascent": 7,
+			"height": 7,
+			"chars": [
+				"\uFB11"
+            ]
+		},
+		{
+			"type": "bitmap",
+			"file": "minecraft:font/fertility.png",
+			"ascent": 8,
+			"height": 8,
+			"chars": [
+				"\uFB12"
+            ]
+		},
+		{
+			"type": "bitmap",
+			"file": "minecraft:font/genetic_disease.png",
+			"ascent": 7,
+			"height": 7,
+			"chars": [
+				"\uFB13"
+            ]
+		},
+		{
+			"type": "bitmap",
+			"file": "minecraft:font/hardiness.png",
+			"ascent": 7,
+			"height": 7,
+			"chars": [
+				"\uFB14"
+            ]
+		},
+		{
+			"type": "bitmap",
+			"file": "minecraft:font/mutant.png",
+			"ascent": 8,
+			"height": 8,
+			"chars": [
+				"\uFB15"
+            ]
+		},
+		{
+			"type": "bitmap",
+			"file": "minecraft:font/nature_restoration.png",
+			"ascent": 8,
+			"height": 8,
+			"chars": [
+				"\uFB16"
+            ]
+		},
+		{
+			"type": "bitmap",
+			"file": "minecraft:font/parasitic_infection.png",
+			"ascent": 7,
+			"height": 7,
+			"chars": [
+				"\uFB17"
+            ]
+		},
+		{
+			"type": "bitmap",
+			"file": "minecraft:font/production.png",
+			"ascent": 7,
+			"height": 7,
+			"chars": [
+				"\uFB18"
+            ]
+		}
+	]
+}

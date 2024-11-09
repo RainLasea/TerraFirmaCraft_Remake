@@ -1,0 +1,7 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "parent": "minecraft:block/template_lantern",
+  "textures": {
+    "lantern": "tfc:block/metal/lamp/bronze"
+  }
+}

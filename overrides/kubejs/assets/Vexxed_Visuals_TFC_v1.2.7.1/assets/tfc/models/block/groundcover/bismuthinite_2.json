@@ -1,0 +1,34 @@
+{
+	"credit": "Made by @vexxel with Blockbench - https://github.com/vexxel",
+	"parent": "tfc:block/groundcover/template/ore_0",
+	"textures": {
+		"texture": "tfc:item/ore/small_bismuthinite"
+	},
+	"elements": [
+		{
+			"from": [8, 0, 6],
+			"to": [10, 1, 8],
+			"rotation": {"angle": -45, "axis": "y", "origin": [8.75, 0.5, 8]},
+			"faces": {
+				"north": {"uv": [8, 5, 10, 6], "texture": "#texture"},
+				"east": {"uv": [6, 10, 8, 11], "texture": "#texture"},
+				"west": {"uv": [4, 11, 6, 12], "texture": "#texture"},
+				"up": {"uv": [8, 4, 10, 6], "texture": "#texture"},
+				"down": {"uv": [8, 8, 10, 10], "texture": "#texture"}
+			}
+		},
+		{
+			"from": [7, 0, 8],
+			"to": [10, 1, 10],
+			"rotation": {"angle": -45, "axis": "y", "origin": [8.75, 0.5, 8]},
+			"faces": {
+				"north": {"uv": [8, 6, 11, 7], "texture": "#texture"},
+				"east": {"uv": [8, 10, 10, 11], "texture": "#texture"},
+				"south": {"uv": [6, 10, 9, 11], "texture": "#texture"},
+				"west": {"uv": [8, 9, 10, 10], "texture": "#texture"},
+				"up": {"uv": [6, 7, 9, 9], "texture": "#texture"},
+				"down": {"uv": [7, 10, 10, 12], "texture": "#texture"}
+			}
+		}
+	]
+}

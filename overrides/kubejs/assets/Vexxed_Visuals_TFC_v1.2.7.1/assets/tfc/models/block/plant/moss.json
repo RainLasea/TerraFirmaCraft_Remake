@@ -1,0 +1,22 @@
+{
+	"credit": "Made by Vexxel#9727 with Blockbench || https://github.com/Vexxel || 2022",
+	"ambientocclusion": false,
+	"textures": {
+		"particle": "minecraft:block/moss_block",
+		"layer0": "minecraft:block/moss_block"
+	},
+	"elements": [
+		{
+			"from": [-0.02, 0.05, -0.02],
+			"to": [16.02, 1.05, 16.02],
+			"faces": {
+				"north": {"uv": [0, 15, 16, 16], "texture": "#layer0", "cullface": "north"},
+				"east": {"uv": [0, 15, 16, 16], "texture": "#layer0", "cullface": "east"},
+				"south": {"uv": [0, 15, 16, 16], "texture": "#layer0", "cullface": "south"},
+				"west": {"uv": [0, 15, 16, 16], "texture": "#layer0", "cullface": "west"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#layer0"},
+				"down": {"uv": [0, 16, 16, 0], "texture": "#layer0", "cullface": "down"}
+			}
+		}
+	]
+}

@@ -1,0 +1,7 @@
+{
+	"parent": "tfc:block/wood/support/vertical_vex",
+	"textures": {
+		"texture": 	"tfc:block/wood/support/vertical/white_cedar",
+		"top": 		"tfc:block/wood/support/top/white_cedar"
+	}
+}

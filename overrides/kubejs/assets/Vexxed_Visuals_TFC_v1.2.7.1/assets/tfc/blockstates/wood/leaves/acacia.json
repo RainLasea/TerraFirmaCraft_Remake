@@ -1,0 +1,30 @@
+{
+	"variants": {
+		"": [
+			{
+				"model": "tfc:block/wood/leaves/acacia"
+			},
+			{
+				"model": "tfc:block/wood/leaves/mirrored/acacia"
+			},
+			{
+				"model": "tfc:block/wood/leaves/acacia",
+				"y": 180
+			},
+			{
+				"model": "tfc:block/wood/leaves/mirrored/acacia",
+				"y": 180
+			},
+			{
+				"model": "tfc:block/wood/leaves/acacia",
+				"x": 180,
+				"z": 180
+			},
+			{
+				"model": "tfc:block/wood/leaves/mirrored/acacia",
+				"x": 180,
+				"z": 180
+			}
+		]
+	}
+}

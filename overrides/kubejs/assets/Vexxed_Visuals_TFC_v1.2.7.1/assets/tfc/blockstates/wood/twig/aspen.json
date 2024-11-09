@@ -1,0 +1,36 @@
+{
+	"variants": {
+		"": [
+			{
+				"model": "tfc:block/wood/twig/aspen"
+			},
+			{
+				"model": "tfc:block/wood/twig/aspen",
+				"y": 90
+			},
+			{
+				"model": "tfc:block/wood/twig/aspen",
+				"y": 180
+			},
+			{
+				"model": "tfc:block/wood/twig/aspen",
+				"y": 270
+			},
+			{
+				"model": "tfc:block/wood/twig/45/aspen"
+			},
+			{
+				"model": "tfc:block/wood/twig/45/aspen",
+				"y": 90
+			},
+			{
+				"model": "tfc:block/wood/twig/45/aspen",
+				"y": 180
+			},
+			{
+				"model": "tfc:block/wood/twig/45/aspen",
+				"y": 270
+			}
+		]
+	}
+}

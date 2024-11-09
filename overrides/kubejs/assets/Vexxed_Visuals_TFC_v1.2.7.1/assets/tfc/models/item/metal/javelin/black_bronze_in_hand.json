@@ -1,0 +1,6 @@
+{
+  "parent": "tfc:item/template_javelin_in_hand",
+  "textures": {
+	"layer0": "tfc:item/metal/javelin/held/black_bronze"
+  }
+}

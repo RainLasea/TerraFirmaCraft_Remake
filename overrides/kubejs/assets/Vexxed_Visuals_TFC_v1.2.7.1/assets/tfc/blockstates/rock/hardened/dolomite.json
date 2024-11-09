@@ -1,0 +1,90 @@
+{
+	"variants": {
+		"": [
+			{
+				"model": "tfc:block/rock/raw/dolomite"
+			},
+			{
+				"model": "tfc:block/rock/raw/mirrored/dolomite"
+			},
+			{
+				"model": "tfc:block/rock/raw/dolomite",
+				"y": 90
+			},
+			{
+				"model": "tfc:block/rock/raw/mirrored/dolomite",
+				"y": 90
+			},
+			{
+				"model": "tfc:block/rock/raw/dolomite",
+				"y": 180
+			},
+			{
+				"model": "tfc:block/rock/raw/mirrored/dolomite",
+				"y": 180
+			},
+			{
+				"model": "tfc:block/rock/raw/dolomite",
+				"y": 270
+			},
+			{
+				"model": "tfc:block/rock/raw/mirrored/dolomite",
+				"y": 270
+			},
+			{
+				"model": "tfc:block/rock/raw/dolomite",
+				"x": 90
+			},
+			{
+				"model": "tfc:block/rock/raw/mirrored/dolomite",
+				"x": 90
+			},
+			{
+				"model": "tfc:block/rock/raw/dolomite",
+				"x": 180
+			},
+			{
+				"model": "tfc:block/rock/raw/mirrored/dolomite",
+				"x": 180
+			},
+			{
+				"model": "tfc:block/rock/raw/dolomite",
+				"x": 270
+			},
+			{
+				"model": "tfc:block/rock/raw/mirrored/dolomite",
+				"x": 270
+			},
+			{
+				"model": "tfc:block/rock/raw/dolomite",
+				"x": 90,
+				"y": 90
+			},
+			{
+				"model": "tfc:block/rock/raw/mirrored/dolomite",
+				"x": 90,
+				"y": 90
+			},
+			{
+				"model": "tfc:block/rock/raw/dolomite",
+				"x": 180,
+				"y": 180
+			},
+			{
+				"model": "tfc:block/rock/raw/mirrored/dolomite",
+				"x": 180,
+				"y": 180
+			},
+			{
+				"model": "tfc:block/rock/raw/dolomite",
+				"x": 270,
+				"y": 270
+			},
+			{
+				"model": "tfc:block/rock/raw/mirrored/dolomite",
+				"x": 270,
+				"y": 270
+			}
+		]
+	}
+}

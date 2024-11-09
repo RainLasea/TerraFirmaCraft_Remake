@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "tfc:block/rock/gravel/quartzite"
+      },
+      {
+        "model": "tfc:block/rock/gravel/quartzite",
+        "y": 180, "x": 180, "z": 180
+      }
+    ]
+  }
+}

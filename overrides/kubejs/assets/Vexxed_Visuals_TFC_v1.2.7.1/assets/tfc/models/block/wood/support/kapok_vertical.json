@@ -1,0 +1,7 @@
+{
+	"parent": "tfc:block/wood/support/vertical_vex",
+	"textures": {
+		"texture": 	"tfc:block/wood/support/vertical/kapok",
+		"top": 		"tfc:block/wood/support/top/kapok"
+	}
+}

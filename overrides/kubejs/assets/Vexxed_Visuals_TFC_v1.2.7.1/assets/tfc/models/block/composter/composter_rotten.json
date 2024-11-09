@@ -1,0 +1,7 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "tfc:block/composter/composter",
+	"textures": {
+		"3": "tfc:block/devices/composter/composter_side_rotten"
+	}
+}

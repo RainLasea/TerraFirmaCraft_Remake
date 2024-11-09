@@ -1,0 +1,30 @@
+{
+	"variants": {
+		"": [
+			{
+				"model": "tfc:block/rock/raw/shale"
+			},
+			{
+				"model": "tfc:block/rock/raw/mirrored/shale"
+			},
+			{
+				"model": "tfc:block/rock/raw/shale",
+				"y": 180
+			},
+			{
+				"model": "tfc:block/rock/raw/mirrored/shale",
+				"y": 180
+			},
+			{
+				"model": "tfc:block/rock/raw/shale",
+				"x": 180,
+				"z": 180
+			},
+			{
+				"model": "tfc:block/rock/raw/mirrored/shale",
+				"x": 180,
+				"z": 180
+			}
+		]
+	}
+}

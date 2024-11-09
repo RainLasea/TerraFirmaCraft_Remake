@@ -1,0 +1,5 @@
+{"parent":"tfc:block/rock/spike_base_ud","textures":{
+	"texture":"tfc:block/rock/raw/slate",
+	"texture_ud":"tfc:block/rock/raw/slate_ud",
+	"particle":"tfc:block/rock/raw/slate"
+}}

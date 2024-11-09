@@ -1,0 +1,30 @@
+{
+	"variants": {
+		"": [
+			{
+				"model": "tfc:block/wood/leaves/douglas_fir"
+			},
+			{
+				"model": "tfc:block/wood/leaves/mirrored/douglas_fir"
+			},
+			{
+				"model": "tfc:block/wood/leaves/douglas_fir",
+				"y": 180
+			},
+			{
+				"model": "tfc:block/wood/leaves/mirrored/douglas_fir",
+				"y": 180
+			},
+			{
+				"model": "tfc:block/wood/leaves/douglas_fir",
+				"x": 180,
+				"z": 180
+			},
+			{
+				"model": "tfc:block/wood/leaves/mirrored/douglas_fir",
+				"x": 180,
+				"z": 180
+			}
+		]
+	}
+}

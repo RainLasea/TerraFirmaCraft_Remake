@@ -1,0 +1,8 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "parent": "tfc:block/anvil",
+  "textures": {
+    "top": "tfc:block/metal/anvil/copper_top",
+    "side": "tfc:block/metal/anvil/copper_side"
+  }
+}

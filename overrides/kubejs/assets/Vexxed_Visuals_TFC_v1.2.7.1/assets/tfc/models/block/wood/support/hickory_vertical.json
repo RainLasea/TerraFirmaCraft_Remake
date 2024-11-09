@@ -1,0 +1,7 @@
+{
+	"parent": "tfc:block/wood/support/vertical_vex",
+	"textures": {
+		"texture": 	"tfc:block/wood/support/vertical/hickory",
+		"top": 		"tfc:block/wood/support/top/hickory"
+	}
+}

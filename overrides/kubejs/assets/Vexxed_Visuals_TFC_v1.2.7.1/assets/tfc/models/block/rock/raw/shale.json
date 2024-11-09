@@ -1,0 +1,8 @@
+{
+	"parent":"block/cube_column",
+	"textures":
+	{
+		"end":"tfc:block/rock/raw/shale_ud",
+		"side":"tfc:block/rock/raw/shale"
+	}
+}

@@ -1,0 +1,30 @@
+{
+	"variants": {
+		"": [
+			{
+				"model": "tfc:block/wood/leaves/sycamore"
+			},
+			{
+				"model": "tfc:block/wood/leaves/mirrored/sycamore"
+			},
+			{
+				"model": "tfc:block/wood/leaves/sycamore",
+				"y": 180
+			},
+			{
+				"model": "tfc:block/wood/leaves/mirrored/sycamore",
+				"y": 180
+			},
+			{
+				"model": "tfc:block/wood/leaves/sycamore",
+				"x": 180,
+				"z": 180
+			},
+			{
+				"model": "tfc:block/wood/leaves/mirrored/sycamore",
+				"x": 180,
+				"z": 180
+			}
+		]
+	}
+}

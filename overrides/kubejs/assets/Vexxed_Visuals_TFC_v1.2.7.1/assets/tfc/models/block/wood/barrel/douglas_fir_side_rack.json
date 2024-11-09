@@ -1,0 +1,9 @@
+{
+	"parent": "tfc:block/barrel_side_rack_vex",
+	"textures": {
+		
+		"outside": 		"tfc:block/wood/barrel/outside/douglas_fir",
+		"inside": 		"tfc:block/wood/barrel/inside/douglas_fir",
+		"sheet": 		"tfc:block/wood/sheet/douglas_fir"
+	}
+}

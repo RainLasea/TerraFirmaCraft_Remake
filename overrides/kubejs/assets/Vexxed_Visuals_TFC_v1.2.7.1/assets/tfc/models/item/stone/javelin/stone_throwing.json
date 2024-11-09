@@ -1,0 +1,27 @@
+{
+  "loader": "forge:separate_transforms",
+  "gui_light": "front",
+  "base": {
+    "parent": "tfc:item/template_javelin_throwing",
+    "textures": {
+      "layer0": "tfc:item/stone/held/stone_javelin"
+    }
+  },
+  "perspectives": {
+    "none": {
+      "parent": "tfc:item/template_javelin_throwing",
+      "textures": {
+        "layer0": "tfc:item/stone/held/stone_javelin"
+      }
+    },
+    "fixed": {
+      "parent": "tfc:item/template_javelin_throwing",
+      "textures": {
+        "layer0": "tfc:item/stone/held/stone_javelin"
+      }
+    },
+    "gui": {
+      "parent": "tfc:item/stone/javelin/stone_gui"
+    }
+  }
+}

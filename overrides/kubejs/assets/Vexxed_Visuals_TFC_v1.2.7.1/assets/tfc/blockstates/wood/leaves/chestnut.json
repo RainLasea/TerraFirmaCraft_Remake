@@ -1,0 +1,30 @@
+{
+	"variants": {
+		"": [
+			{
+				"model": "tfc:block/wood/leaves/chestnut"
+			},
+			{
+				"model": "tfc:block/wood/leaves/mirrored/chestnut"
+			},
+			{
+				"model": "tfc:block/wood/leaves/chestnut",
+				"y": 180
+			},
+			{
+				"model": "tfc:block/wood/leaves/mirrored/chestnut",
+				"y": 180
+			},
+			{
+				"model": "tfc:block/wood/leaves/chestnut",
+				"x": 180,
+				"z": 180
+			},
+			{
+				"model": "tfc:block/wood/leaves/mirrored/chestnut",
+				"x": 180,
+				"z": 180
+			}
+		]
+	}
+}

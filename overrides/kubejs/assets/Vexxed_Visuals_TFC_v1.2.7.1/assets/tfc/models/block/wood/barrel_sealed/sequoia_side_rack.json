@@ -1,0 +1,9 @@
+{
+	"parent": "tfc:block/barrel_side_sealed_rack_vex",
+	"textures": {
+		
+		"outside": 		"tfc:block/wood/barrel/outside/sequoia",
+		"inside": 		"tfc:block/wood/barrel/inside/sequoia",
+		"sheet": 		"tfc:block/wood/sheet/sequoia"
+	}
+}

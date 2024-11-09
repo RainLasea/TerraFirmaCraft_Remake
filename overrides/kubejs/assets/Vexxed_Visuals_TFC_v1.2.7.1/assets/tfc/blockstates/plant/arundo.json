@@ -1,0 +1,15 @@
+{
+	"variants": {
+		"": [
+			{
+				"model": "tfc:block/plant/arundo_0"
+			},
+			{
+				"model": "tfc:block/plant/arundo_1"
+			},
+			{
+				"model": "tfc:block/plant/arundo_2"
+			}
+		]
+	}
+}

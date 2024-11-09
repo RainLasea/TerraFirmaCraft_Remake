@@ -1,0 +1,9 @@
+{
+	"parent":"tfc:block/ore",
+	"textures":
+	{
+		"all":"tfc:block/ore_raw_rock/granite/iron",
+		"particle":"tfc:block/rock/raw/granite",
+		"overlay":"tfc:block/ore/rich/garnierite"
+	}
+}

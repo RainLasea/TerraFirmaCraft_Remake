@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "": [
+      {"model": "tfc:block/rock/raw/conglomerate"          , "weight": 3},
+      {"model": "tfc:block/rock/raw/variant/conglomerate_1"             },
+      {"model": "tfc:block/rock/raw/variant/conglomerate_2"             },
+      {"model": "tfc:block/rock/raw/variant/conglomerate_3"             },
+      {"model": "tfc:block/rock/raw/variant/conglomerate_4"             },
+      {"model": "tfc:block/rock/raw/variant/conglomerate_5"             },
+	  {"model": "tfc:block/rock/raw/variant/conglomerate_6", "weight": 3}
+    ]
+  }
+}

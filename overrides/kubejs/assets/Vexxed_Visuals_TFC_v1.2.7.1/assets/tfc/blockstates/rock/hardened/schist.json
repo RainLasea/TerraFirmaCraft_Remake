@@ -1,0 +1,30 @@
+{
+	"variants": {
+		"": [
+			{
+				"model": "tfc:block/rock/raw/schist"
+			},
+			{
+				"model": "tfc:block/rock/raw/mirrored/schist"
+			},
+			{
+				"model": "tfc:block/rock/raw/schist",
+				"y": 180
+			},
+			{
+				"model": "tfc:block/rock/raw/mirrored/schist",
+				"y": 180
+			},
+			{
+				"model": "tfc:block/rock/raw/schist",
+				"x": 180,
+				"z": 180
+			},
+			{
+				"model": "tfc:block/rock/raw/mirrored/schist",
+				"x": 180,
+				"z": 180
+			}
+		]
+	}
+}

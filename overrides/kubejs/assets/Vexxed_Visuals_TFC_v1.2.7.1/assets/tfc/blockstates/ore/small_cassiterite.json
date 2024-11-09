@@ -1,0 +1,51 @@
+{
+	"variants": {
+		"": [
+			{
+				"model": "tfc:block/groundcover/cassiterite_0"
+			},
+			{
+				"model": "tfc:block/groundcover/cassiterite_0",
+				"y": 90
+			},
+			{
+				"model": "tfc:block/groundcover/cassiterite_0",
+				"y": 180
+			},
+			{
+				"model": "tfc:block/groundcover/cassiterite_0",
+				"y": 270
+			},
+			{
+				"model": "tfc:block/groundcover/cassiterite_1"
+			},
+			{
+				"model": "tfc:block/groundcover/cassiterite_1",
+				"y": 90
+			},
+			{
+				"model": "tfc:block/groundcover/cassiterite_1",
+				"y": 180
+			},
+			{
+				"model": "tfc:block/groundcover/cassiterite_1",
+				"y": 270
+			},
+			{
+				"model": "tfc:block/groundcover/cassiterite_2"
+			},
+			{
+				"model": "tfc:block/groundcover/cassiterite_2",
+				"y": 90
+			},
+			{
+				"model": "tfc:block/groundcover/cassiterite_2",
+				"y": 180
+			},
+			{
+				"model": "tfc:block/groundcover/cassiterite_2",
+				"y": 270
+			}
+		]
+	}
+}

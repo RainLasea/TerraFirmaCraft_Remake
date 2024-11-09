@@ -1,0 +1,14 @@
+{
+	"parent":"block/cube_column",
+	"textures":{
+		"end":"tfc:block/crop/rotten_pumpkin_top",
+		"side":"tfc:block/crop/rotten_pumpkin_side"
+	},
+	"display": {
+		"fixed": {
+			"rotation": [270, 0, 0],
+			"translation": [0, 0, -4],
+			"scale": [0.66, 0.66, 0.66]
+		}
+	}
+}

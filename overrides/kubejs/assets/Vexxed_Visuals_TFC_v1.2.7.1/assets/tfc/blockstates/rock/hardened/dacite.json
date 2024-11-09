@@ -1,0 +1,30 @@
+{
+	"variants": {
+		"": [
+			{
+				"model": "tfc:block/rock/raw/dacite"
+			},
+			{
+				"model": "tfc:block/rock/raw/mirrored/dacite"
+			},
+			{
+				"model": "tfc:block/rock/raw/dacite",
+				"y": 180
+			},
+			{
+				"model": "tfc:block/rock/raw/mirrored/dacite",
+				"y": 180
+			},
+			{
+				"model": "tfc:block/rock/raw/dacite",
+				"x": 180,
+				"z": 180
+			},
+			{
+				"model": "tfc:block/rock/raw/mirrored/dacite",
+				"x": 180,
+				"z": 180
+			}
+		]
+	}
+}

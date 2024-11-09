@@ -1,0 +1,30 @@
+{
+	"variants": {
+		"": [
+			{
+				"model": "tfc:block/rock/raw/gabbro"
+			},
+			{
+				"model": "tfc:block/rock/raw/mirrored/gabbro"
+			},
+			{
+				"model": "tfc:block/rock/raw/gabbro",
+				"y": 180
+			},
+			{
+				"model": "tfc:block/rock/raw/mirrored/gabbro",
+				"y": 180
+			},
+			{
+				"model": "tfc:block/rock/raw/gabbro",
+				"x": 180,
+				"z": 180
+			},
+			{
+				"model": "tfc:block/rock/raw/mirrored/gabbro",
+				"x": 180,
+				"z": 180
+			}
+		]
+	}
+}

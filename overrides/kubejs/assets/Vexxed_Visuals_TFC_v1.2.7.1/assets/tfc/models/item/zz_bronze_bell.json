@@ -1,0 +1,108 @@
+{
+	"credit": "Made by Vexxel#9727 || https://github.com/Vexxel || © Vexxel. All rights reserved.",
+	"textures": {
+		"2": "tfc:entity/bell/bronze",
+		"bar": "tfc:block/rock/raw/schist",
+		"post": "tfc:block/wood/planks/aspen",
+		"particle": "tfc:block/metal/full/bronze"
+	},
+	"elements": [
+		{
+			"name": "cubepost",
+			"from": [2, 13, 7],
+			"to": [14, 15, 9],
+			"faces": {
+				"north": {"uv": [2, 2, 14, 4], "texture": "#bar"},
+				"south": {"uv": [2, 3, 14, 5], "texture": "#bar"},
+				"up": {"uv": [2, 3, 14, 5], "texture": "#bar"},
+				"down": {"uv": [2, 3, 14, 5], "texture": "#bar"}
+			}
+		},
+		{
+			"name": "cubeleft",
+			"from": [14, 0, 6],
+			"to": [16, 16, 10],
+			"faces": {
+				"north": {"uv": [0, 1, 2, 16], "texture": "#post"},
+				"east": {"uv": [0, 1, 4, 16], "texture": "#post"},
+				"south": {"uv": [0, 1, 2, 16], "texture": "#post"},
+				"west": {"uv": [0, 1, 4, 16], "texture": "#post"},
+				"up": {"uv": [0, 0, 2, 4], "texture": "#post", "cullface": "up"},
+				"down": {"uv": [0, 0, 2, 4], "texture": "#post", "cullface": "down"}
+			}
+		},
+		{
+			"name": "cuberight",
+			"from": [0, 0, 6],
+			"to": [2, 16, 10],
+			"faces": {
+				"north": {"uv": [0, 1, 2, 16], "texture": "#post"},
+				"east": {"uv": [0, 1, 4, 16], "texture": "#post"},
+				"south": {"uv": [0, 1, 2, 16], "texture": "#post"},
+				"west": {"uv": [0, 1, 4, 16], "texture": "#post"},
+				"up": {"uv": [0, 0, 2, 4], "texture": "#post", "cullface": "up"},
+				"down": {"uv": [0, 0, 2, 4], "texture": "#post", "cullface": "down"}
+			}
+		},
+		{
+			"name": "cubebellbottom",
+			"from": [4, 4, 4],
+			"to": [12, 6, 12],
+			"faces": {
+				"north": {"uv": [4, 10.5, 8, 11.5], "rotation": 180, "texture": "#2"},
+				"east": {"uv": [8, 10.5, 12, 11.5], "rotation": 180, "texture": "#2"},
+				"south": {"uv": [12, 10.5, 16, 11.5], "rotation": 180, "texture": "#2"},
+				"west": {"uv": [0, 10.5, 4, 11.5], "rotation": 180, "texture": "#2"},
+				"up": {"uv": [4, 6.5, 8, 10.5], "texture": "#2"},
+				"down": {"uv": [8, 6.5, 12, 10.5], "texture": "#2"}
+			}
+		},
+		{
+			"name": "cubebellbody",
+			"from": [5, 6, 5],
+			"to": [11, 13, 11],
+			"faces": {
+				"north": {"uv": [3, 3, 6, 6.5], "rotation": 180, "texture": "#2"},
+				"east": {"uv": [6, 3, 9, 6.5], "rotation": 180, "texture": "#2"},
+				"south": {"uv": [9, 3, 12, 6.5], "rotation": 180, "texture": "#2"},
+				"west": {"uv": [0, 3, 3, 6.5], "rotation": 180, "texture": "#2"},
+				"up": {"uv": [3, 0, 6, 3], "texture": "#2"},
+				"down": {"uv": [6, 0, 9, 3], "texture": "#2"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [75, 135, 0],
+			"translation": [0, 2.5, 0],
+			"scale": [0.375, 0.375, 0.375]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [75, 135, 0],
+			"translation": [0, 2.5, 0],
+			"scale": [0.375, 0.375, 0.375]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, -45, 0],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, -45, 0],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"ground": {
+			"translation": [0, 3, 0],
+			"scale": [0.25, 0.25, 0.25]
+		},
+		"gui": {
+			"rotation": [30, 225, 0],
+			"scale": [0.625, 0.625, 0.625]
+		},
+		"head": {
+			"translation": [0, 12, 0]
+		},
+		"fixed": {
+			"scale": [0.5, 0.5, 0.5]
+		}
+	}
+}

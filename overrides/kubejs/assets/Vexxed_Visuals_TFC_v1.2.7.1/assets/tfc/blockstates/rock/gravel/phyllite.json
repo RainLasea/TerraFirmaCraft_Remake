@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "tfc:block/rock/gravel/phyllite"
+      },
+      {
+        "model": "tfc:block/rock/gravel/phyllite",
+        "y": 180, "x": 180, "z": 180
+      }
+    ]
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "variants": {
+    "": [
+      {"model": "tfc:block/rock/raw/chalk"          },
+      {"model": "tfc:block/rock/raw/variant/chalk_1"},
+      {"model": "tfc:block/rock/raw/variant/chalk_2"}
+    ]
+  }
+}

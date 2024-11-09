@@ -1,0 +1,53 @@
+{
+	"credit": "Made by Vexxel#9727 with Blockbench || https://github.com/Vexxel || © Vexxel. All rights reserved.",
+	"ambientocclusion": false,
+	"textures": {
+		"1": "tfc:block/plant/sargassum/sargassum_hanging",
+		"particle": "tfc:block/plant/sargassum/sargassum",
+		"pad": "tfc:block/plant/sargassum/sargassum"
+	},
+	"elements": [
+		{
+			"from": [0, 0.25, 0],
+			"to": [16, 0.25, 16],
+			"faces": {
+				"up": {"uv": [16, 0, 0, 16], "texture": "#pad"},
+				"down": {"uv": [16, 16, 0, 0], "texture": "#pad"}
+			}
+		},
+		{
+			"from": [-1, -11, 2],
+			"to": [15, 0, 2],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 11], "texture": "#1"},
+				"south": {"uv": [0, 0, 16, 11], "texture": "#1"}
+			}
+		},
+		{
+			"from": [2, -11, -1],
+			"to": [2, 0, 15],
+			"faces": {
+				"east": {"uv": [0, 0, 16, 11], "texture": "#1"},
+				"west": {"uv": [0, 0, 16, 11], "texture": "#1"}
+			}
+		},
+		{
+			"from": [-1, -11, 12],
+			"to": [15, 0, 12],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 11], "texture": "#1"},
+				"south": {"uv": [0, 0, 16, 11], "texture": "#1"}
+			}
+		},
+		{
+			"from": [12, -11, -1],
+			"to": [12, 0, 15],
+			"faces": {
+				"east": {"uv": [0, 0, 16, 11], "texture": "#1"},
+				"west": {"uv": [0, 0, 16, 11], "texture": "#1"}
+			}
+		}
+	]
+}

@@ -1,0 +1,9 @@
+{
+	"parent":"block/slab",
+	"textures":
+	{
+		"bottom":"tfc:block/rock/raw/claystone_ud",
+		"top":"tfc:block/rock/raw/claystone_ud",
+		"side":"tfc:block/rock/raw/claystone"
+	}
+}

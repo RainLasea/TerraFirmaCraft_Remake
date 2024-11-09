@@ -1,0 +1,30 @@
+{
+	"variants": {
+		"": [
+			{
+				"model": "tfc:block/wood/leaves/kapok"
+			},
+			{
+				"model": "tfc:block/wood/leaves/mirrored/kapok"
+			},
+			{
+				"model": "tfc:block/wood/leaves/kapok",
+				"y": 180
+			},
+			{
+				"model": "tfc:block/wood/leaves/mirrored/kapok",
+				"y": 180
+			},
+			{
+				"model": "tfc:block/wood/leaves/kapok",
+				"x": 180,
+				"z": 180
+			},
+			{
+				"model": "tfc:block/wood/leaves/mirrored/kapok",
+				"x": 180,
+				"z": 180
+			}
+		]
+	}
+}

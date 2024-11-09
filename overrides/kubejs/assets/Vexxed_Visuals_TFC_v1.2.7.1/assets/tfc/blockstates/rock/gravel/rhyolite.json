@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "tfc:block/rock/gravel/rhyolite"
+      },
+      {
+        "model": "tfc:block/rock/gravel/rhyolite",
+        "y": 180, "x": 180, "z": 180
+      }
+    ]
+  }
+}
