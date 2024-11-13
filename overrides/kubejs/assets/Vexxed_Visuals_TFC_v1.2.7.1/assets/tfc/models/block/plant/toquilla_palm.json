@@ -1,0 +1,42 @@
+{
+	"credit": "Made by Vexxel#9727 with Blockbench || https://github.com/Vexxel || 2022",
+	"ambientocclusion": false,
+	"textures": {
+		"particle": "tfc:block/plant/toquilla_palm/toquilla_palm_1",
+		"cross1": "tfc:block/plant/toquilla_palm/toquilla_palm_1",
+		"cross2": "tfc:block/plant/toquilla_palm/toquilla_palm_2",
+		"cross3": "tfc:block/plant/toquilla_palm/toquilla_palm_2_overlay"
+	},
+	"elements": [
+		{
+			"from": [8, 0, -4.8],
+			"to": [8, 28, 23.2],
+			"shade": false,
+			"rotation": {"angle": -22.5, "axis": "y", "origin": [8, 8, 8]},
+			"faces": {
+				"east": {"uv": [16, 0, 0, 16], "texture": "#cross1", "tintindex": 0},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#cross1", "tintindex": 0}
+			}
+		},
+		{
+			"from": [8, 0, -4.8],
+			"to": [8, 28, 23.2],
+			"shade": false,
+			"rotation": {"angle": 22.5, "axis": "y", "origin": [8, 8, 8]},
+			"faces": {
+				"east": {"uv": [16, 0, 0, 16], "texture": "#cross2", "tintindex": 0},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#cross2", "tintindex": 0}
+			}
+		},
+		{
+			"from": [8, 0, -4.8],
+			"to": [8, 28, 23.2],
+			"shade": false,
+			"rotation": {"angle": 22.5, "axis": "y", "origin": [8, 8, 8]},
+			"faces": {
+				"east": {"uv": [16, 0, 0, 16], "texture": "#cross3"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#cross3"}
+			}
+		}
+	]
+}

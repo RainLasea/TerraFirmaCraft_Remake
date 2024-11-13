@@ -1,0 +1,9 @@
+{
+	"parent":"tfc:block/crucible",
+	"textures": {
+		"2": "tfc:block/devices/crucible/side_inside_unfired",
+		"3": "tfc:block/devices/crucible/bottom_unfired",
+		"side": "tfc:block/devices/crucible/side_unfired",
+		"top": "tfc:block/devices/crucible/top_unfired"
+	}
+}

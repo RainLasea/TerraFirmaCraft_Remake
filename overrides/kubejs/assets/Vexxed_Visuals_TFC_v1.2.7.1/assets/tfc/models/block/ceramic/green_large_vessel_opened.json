@@ -1,0 +1,9 @@
+{
+	"parent": "tfc:block/ceramic/large_vessel_b_opened",
+	"textures": {
+		"top": "tfc:block/ceramic/large_vessel/glazed/green/top",
+		"side": "tfc:block/ceramic/large_vessel/glazed/green/side",
+		"bottom": "tfc:block/ceramic/large_vessel/glazed/green/bottom",
+		"walls_inside": "tfc:block/ceramic/large_vessel/glazed/walls_inside_fired"
+	}
+}

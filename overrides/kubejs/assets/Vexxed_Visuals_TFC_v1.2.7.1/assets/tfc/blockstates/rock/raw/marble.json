@@ -1,0 +1,30 @@
+{
+	"variants": {
+		"": [
+			{
+				"model": "tfc:block/rock/raw/marble"
+			},
+			{
+				"model": "tfc:block/rock/raw/mirrored/marble"
+			},
+			{
+				"model": "tfc:block/rock/raw/marble",
+				"y": 180
+			},
+			{
+				"model": "tfc:block/rock/raw/mirrored/marble",
+				"y": 180
+			},
+			{
+				"model": "tfc:block/rock/raw/marble",
+				"x": 180,
+				"z": 180
+			},
+			{
+				"model": "tfc:block/rock/raw/mirrored/marble",
+				"x": 180,
+				"z": 180
+			}
+		]
+	}
+}

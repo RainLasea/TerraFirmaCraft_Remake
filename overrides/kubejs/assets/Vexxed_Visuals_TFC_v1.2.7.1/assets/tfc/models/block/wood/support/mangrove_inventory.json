@@ -1,0 +1,8 @@
+{
+	"parent": "tfc:block/wood/support/inventory_vex",
+	"textures": {
+		"vertical": 	"tfc:block/wood/support/vertical/mangrove",
+		"horizontal": 	"tfc:block/wood/support/horizontal/mangrove",
+		"top": 			"tfc:block/wood/support/top/mangrove"
+	}
+}

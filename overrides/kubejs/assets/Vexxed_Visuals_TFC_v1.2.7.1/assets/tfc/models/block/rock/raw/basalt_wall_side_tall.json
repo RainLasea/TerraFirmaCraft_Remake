@@ -1,0 +1,8 @@
+{
+	"parent":"tfc:block/template_wall_side_tall_ud",
+	"textures":
+	{
+		"wall":"tfc:block/rock/raw/basalt",
+		"updown":"tfc:block/rock/raw/basalt_ud"
+	}
+}

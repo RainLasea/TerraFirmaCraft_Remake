@@ -1,0 +1,4 @@
+Vexxel - discord @vexxel - https://github.com/Vexxel                  Most of the work, textures, custom models
+TFC:TNG Team and the TFC Discord                                      Base textures to modify and tweak
+SixFootBlue/Blue Haven                                                Some textures raw and edited from Itembound
+Jappa/Mojang Team                                                     Base textures raw and edited from Minecraft

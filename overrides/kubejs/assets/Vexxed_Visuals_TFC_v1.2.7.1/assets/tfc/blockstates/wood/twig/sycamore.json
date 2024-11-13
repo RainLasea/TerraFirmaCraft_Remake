@@ -1,0 +1,36 @@
+{
+	"variants": {
+		"": [
+			{
+				"model": "tfc:block/wood/twig/sycamore"
+			},
+			{
+				"model": "tfc:block/wood/twig/sycamore",
+				"y": 90
+			},
+			{
+				"model": "tfc:block/wood/twig/sycamore",
+				"y": 180
+			},
+			{
+				"model": "tfc:block/wood/twig/sycamore",
+				"y": 270
+			},
+			{
+				"model": "tfc:block/wood/twig/45/sycamore"
+			},
+			{
+				"model": "tfc:block/wood/twig/45/sycamore",
+				"y": 90
+			},
+			{
+				"model": "tfc:block/wood/twig/45/sycamore",
+				"y": 180
+			},
+			{
+				"model": "tfc:block/wood/twig/45/sycamore",
+				"y": 270
+			}
+		]
+	}
+}

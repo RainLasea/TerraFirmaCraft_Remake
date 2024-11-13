@@ -1,0 +1,16 @@
+{
+	"credit": "Made by @vexxel with Blockbench - https://github.com/vexxel",
+	"textures": {
+		"0": "block/composter_ready",
+		"particle": "block/composter_ready"
+	},
+	"elements": [
+		{
+			"from": [2, 15, 2],
+			"to": [14, 15, 14],
+			"faces": {
+				"up": {"uv": [2, 2, 14, 14], "texture": "#0"}
+			}
+		}
+	]
+}

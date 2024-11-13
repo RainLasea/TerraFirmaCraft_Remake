@@ -1,0 +1,36 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "name": "水袋配方",
+  "category": "tfc:waterflasks",
+  "icon": "waterflasks:leather_flask",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "水袋分为两个等级。$(br)皮革水袋可容纳5杯水，使用寿命为100次。$(br)铁水袋可容纳20杯水，使用寿命为400次。$(br2)两种水袋都可以修理。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "waterflasks:crafting/leather_flask",
+      "recipe2": "waterflasks:crafting/iron_flask"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "waterflasks:crafting/repair_leather",
+      "recipe2": "waterflasks:crafting/repair_iron",
+      "title": "修理配方"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "waterflasks:crafting/repair_broken_leather",
+      "recipe2": "waterflasks:crafting/repair_broken_iron",
+      "title": "翻新配方",
+      "text": "水袋在完全损坏时也可以修理。"
+    }
+  ],
+  "read_by_default": true,
+  "sortnum": 1,
+  "extra_recipe_mappings": {
+    "waterflasks:leather_flask": 1,
+    "waterflasks:iron_flask": 1
+  }
+}

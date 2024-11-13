@@ -1,0 +1,6 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "parent": "tfc:block/jar_unsealed",
+  "textures": {
+    "1": "firmalife:block/jar/red_grapes"}
+}

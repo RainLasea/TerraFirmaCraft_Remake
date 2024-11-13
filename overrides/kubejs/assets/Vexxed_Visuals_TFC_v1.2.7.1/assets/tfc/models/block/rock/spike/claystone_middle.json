@@ -1,0 +1,6 @@
+{"parent":"tfc:block/rock/spike_middle_ud",
+"textures":{
+	"texture":"tfc:block/rock/raw/claystone",
+	"texture_ud":"tfc:block/rock/raw/claystone_ud",
+	"particle":"tfc:block/rock/raw/claystone"
+	}}

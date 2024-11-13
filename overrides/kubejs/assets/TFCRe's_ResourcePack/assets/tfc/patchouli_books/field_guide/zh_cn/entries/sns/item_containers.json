@@ -1,0 +1,27 @@
+{
+    "name":"物品容器",
+    "category":"tfc:sacks_n_such",
+    "icon":"sns:frame_pack",
+    "pages":[
+        {
+            "type":"patchouli:text",
+            "text":"物品容器是本模组添加的主要物品。它们有6个主要属性，可以通过按住$(3)Shift$(clear)并将鼠标悬停在堆叠上来查看。$(li)插槽数量（它具有的插槽数量）$(li)插槽容量（每个插槽可以容纳多少物品）$(li)允许的大小（插槽中允许的最大群峦尺寸）$(li)物品拾取（是否可以从世界中拾取物品和实体）。使用Shift加右键点击或按$(k:sns.key.pickup)切换。$(li)物品废弃（是否可以废弃从世界中拾取的多余物品）。使用$(k:sns.key.void)切换。$(li)库存互动（是否可以像群峦容器或原版容器一样，通过点击堆叠插入和提取物品）。"
+        },
+        {
+            "type":"patchouli:crafting",
+            "recipe":"sns:crafting/straw_basket",
+            "recipe2":"sns:crafting/leather_sack"
+        },
+        {
+            "type":"patchouli:crafting",
+            "recipe":"sns:crafting/burlap_sack",
+            "recipe2":"sns:crafting/ore_sack"
+        },
+        {
+            "type":"patchouli:crafting",
+            "recipe":"sns:crafting/seed_pouch",
+            "recipe2":"sns:crafting/frame_pack"
+        }
+    ],
+    "read_by_default":true
+}

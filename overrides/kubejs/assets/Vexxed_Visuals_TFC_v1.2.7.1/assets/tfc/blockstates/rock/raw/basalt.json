@@ -1,0 +1,34 @@
+{
+	"variants": {
+		"": [
+			{
+				"model": "tfc:block/rock/raw/basalt"
+			},
+			{
+				"model": "tfc:block/rock/raw/mirrored/basalt"
+			},
+			{
+				"model": "tfc:block/rock/raw/basalt",
+				"y": 180
+			},
+			{
+				"model": "tfc:block/rock/raw/mirrored/basalt",
+				"y": 180
+			},
+			{
+				"model": "tfc:block/rock/raw/basalt",
+				"x": 180,
+				"z": 180
+			},
+			{
+				"model": "tfc:block/rock/raw/mirrored/basalt",
+				"x": 180,
+				"z": 180
+			},
+			{
+				"model": "tfc:block/rock/raw/variant/basalt",
+				"weight": 8
+			}
+		]
+	}
+}

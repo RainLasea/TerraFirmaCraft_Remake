@@ -1,0 +1,36 @@
+{
+	"variants": {
+		"": [
+			{
+				"model": "tfc:block/wood/twig/white_cedar"
+			},
+			{
+				"model": "tfc:block/wood/twig/white_cedar",
+				"y": 90
+			},
+			{
+				"model": "tfc:block/wood/twig/white_cedar",
+				"y": 180
+			},
+			{
+				"model": "tfc:block/wood/twig/white_cedar",
+				"y": 270
+			},
+			{
+				"model": "tfc:block/wood/twig/45/white_cedar"
+			},
+			{
+				"model": "tfc:block/wood/twig/45/white_cedar",
+				"y": 90
+			},
+			{
+				"model": "tfc:block/wood/twig/45/white_cedar",
+				"y": 180
+			},
+			{
+				"model": "tfc:block/wood/twig/45/white_cedar",
+				"y": 270
+			}
+		]
+	}
+}

@@ -1,0 +1,9 @@
+{
+	"parent": "tfc:block/ceramic/large_vessel_a_sealed",
+	"textures": {
+		"top": "tfc:block/ceramic/large_vessel/glazed/light_gray/top",
+		"side": "tfc:block/ceramic/large_vessel/glazed/light_gray/side",
+		"bottom": "tfc:block/ceramic/large_vessel/glazed/light_gray/bottom",
+		"walls_inside": "tfc:block/ceramic/large_vessel/glazed/walls_inside_fired"
+	}
+}

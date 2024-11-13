@@ -1,0 +1,30 @@
+{
+	"variants": {
+		"": [
+			{
+				"model": "tfc:block/wood/leaves/ash"
+			},
+			{
+				"model": "tfc:block/wood/leaves/mirrored/ash"
+			},
+			{
+				"model": "tfc:block/wood/leaves/ash",
+				"y": 180
+			},
+			{
+				"model": "tfc:block/wood/leaves/mirrored/ash",
+				"y": 180
+			},
+			{
+				"model": "tfc:block/wood/leaves/ash",
+				"x": 180,
+				"z": 180
+			},
+			{
+				"model": "tfc:block/wood/leaves/mirrored/ash",
+				"x": 180,
+				"z": 180
+			}
+		]
+	}
+}

@@ -1,0 +1,59 @@
+{
+	"credit": "Made by @vexxel with Blockbench - https://github.com/vexxel",
+	"parent": "block/block",
+	"textures": {
+		"1": "firmalife:item/peel_in_hand",
+		"particle": "firmalife:item/peel"
+	},
+	"elements": [
+		{
+			"from": [2, -12, 7.99],
+			"to": [14, -1, 8.99],
+			"faces": {
+				"north": {"uv": [0, 0, 12, 11], "texture": "#1"},
+				"east": {"uv": [12, 0, 13, 11], "texture": "#1"},
+				"south": {"uv": [0, 0, 12, 11], "texture": "#1"},
+				"west": {"uv": [12, 0, 13, 11], "texture": "#1"},
+				"up": {"uv": [0, 12, 12, 13], "texture": "#1"},
+				"down": {"uv": [0, 11, 12, 12], "texture": "#1"}
+			}
+		},
+		{
+			"from": [7, -2, 7],
+			"to": [9, 14, 9],
+			"faces": {
+				"north": {"uv": [14, 0, 16, 16], "texture": "#1"},
+				"east": {"uv": [14, 0, 16, 16], "texture": "#1"},
+				"south": {"uv": [14, 0, 16, 16], "texture": "#1"},
+				"west": {"uv": [14, 0, 16, 16], "texture": "#1"},
+				"up": {"uv": [12, 14, 14, 16], "texture": "#1"},
+				"down": {"uv": [12, 14, 14, 16], "texture": "#1"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [-180, 10, -2],
+			"translation": [0, -4, 1.25]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [-180, 10, -2],
+			"translation": [0, -4, 1.25]
+		},
+		"firstperson_righthand": {
+			"rotation": [125, 5, 0],
+			"translation": [0, -1.5, 4.5],
+			"scale": [0.75, 0.75, 0.75]
+		},
+		"firstperson_lefthand": {
+			"rotation": [125, 5, 0],
+			"translation": [0, -1.5, 4.5],
+			"scale": [0.75, 0.75, 0.75]
+		},
+		"head": {
+			"rotation": [90, 0, 0],
+			"translation": [0, 7.5, 6]
+		}
+	},
+	"__comment__": "This file was automatically created by mcresources"
+}

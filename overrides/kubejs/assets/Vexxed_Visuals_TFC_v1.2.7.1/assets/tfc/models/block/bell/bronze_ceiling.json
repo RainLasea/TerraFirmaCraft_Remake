@@ -1,0 +1,9 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "parent": "minecraft:block/bell_ceiling",
+  "textures": {
+    "bar": "tfc:block/wood/planks/hickory",
+    "post": "tfc:block/rock/raw/dacite",
+    "particle": "tfc:block/metal/smooth/bronze"
+  }
+}

@@ -1,0 +1,36 @@
+{
+	"variants": {
+		"": [
+			{
+				"model": "tfc:block/wood/twig/pine"
+			},
+			{
+				"model": "tfc:block/wood/twig/pine",
+				"y": 90
+			},
+			{
+				"model": "tfc:block/wood/twig/pine",
+				"y": 180
+			},
+			{
+				"model": "tfc:block/wood/twig/pine",
+				"y": 270
+			},
+			{
+				"model": "tfc:block/wood/twig/45/pine"
+			},
+			{
+				"model": "tfc:block/wood/twig/45/pine",
+				"y": 90
+			},
+			{
+				"model": "tfc:block/wood/twig/45/pine",
+				"y": 180
+			},
+			{
+				"model": "tfc:block/wood/twig/45/pine",
+				"y": 270
+			}
+		]
+	}
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "tfc:block/rock/gravel/gabbro"
+      },
+      {
+        "model": "tfc:block/rock/gravel/gabbro",
+        "y": 180, "x": 180, "z": 180
+      }
+    ]
+  }
+}

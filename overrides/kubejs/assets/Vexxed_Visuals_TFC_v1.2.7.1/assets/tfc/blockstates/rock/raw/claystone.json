@@ -1,0 +1,36 @@
+{
+	"variants": {
+		"": [
+			{
+				"model": "tfc:block/rock/raw/claystone"
+			},
+			{
+				"model": "tfc:block/rock/raw/mirrored/claystone"
+			},
+			{
+				"model": "tfc:block/rock/raw/claystone",
+				"y": 90
+			},
+			{
+				"model": "tfc:block/rock/raw/mirrored/claystone",
+				"y": 90
+			},
+			{
+				"model": "tfc:block/rock/raw/claystone",
+				"y": 180
+			},
+			{
+				"model": "tfc:block/rock/raw/mirrored/claystone",
+				"y": 180
+			},
+			{
+				"model": "tfc:block/rock/raw/claystone",
+				"y": 270
+			},
+			{
+				"model": "tfc:block/rock/raw/mirrored/claystone",
+				"y": 270
+			}
+		]
+	}
+}

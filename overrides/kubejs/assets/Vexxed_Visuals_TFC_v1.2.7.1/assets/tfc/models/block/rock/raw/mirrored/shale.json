@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column_mirrored",
+  "textures": {
+    "end": "tfc:block/rock/raw/shale_ud",
+    "side": "tfc:block/rock/raw/shale"
+  }
+}

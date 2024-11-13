@@ -1,0 +1,12 @@
+{
+	"variants": {
+		"": [
+			{
+				"model": "tfc:block/rock/raw/phyllite"
+			},
+			{
+				"model": "tfc:block/rock/raw/mirrored/phyllite"
+			}
+		]
+	}
+}

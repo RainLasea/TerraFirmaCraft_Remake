@@ -1,0 +1,7 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "parent": "tfc:item/handstone_healthy",
+  "textures": {
+    "0": "tfc:block/devices/quern/handstone_damaged"
+  }
+}

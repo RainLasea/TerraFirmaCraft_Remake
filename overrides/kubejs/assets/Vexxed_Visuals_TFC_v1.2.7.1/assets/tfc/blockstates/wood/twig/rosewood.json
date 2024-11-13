@@ -1,0 +1,36 @@
+{
+	"variants": {
+		"": [
+			{
+				"model": "tfc:block/wood/twig/rosewood"
+			},
+			{
+				"model": "tfc:block/wood/twig/rosewood",
+				"y": 90
+			},
+			{
+				"model": "tfc:block/wood/twig/rosewood",
+				"y": 180
+			},
+			{
+				"model": "tfc:block/wood/twig/rosewood",
+				"y": 270
+			},
+			{
+				"model": "tfc:block/wood/twig/45/rosewood"
+			},
+			{
+				"model": "tfc:block/wood/twig/45/rosewood",
+				"y": 90
+			},
+			{
+				"model": "tfc:block/wood/twig/45/rosewood",
+				"y": 180
+			},
+			{
+				"model": "tfc:block/wood/twig/45/rosewood",
+				"y": 270
+			}
+		]
+	}
+}

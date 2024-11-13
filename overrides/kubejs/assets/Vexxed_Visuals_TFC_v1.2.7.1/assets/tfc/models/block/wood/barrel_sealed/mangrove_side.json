@@ -1,0 +1,9 @@
+{
+	"parent": "tfc:block/barrel_side_sealed_vex",
+	"textures": {
+		
+		"outside": 		"tfc:block/wood/barrel/outside/mangrove",
+		"inside": 		"tfc:block/wood/barrel/inside/mangrove",
+		"sheet": 		"tfc:block/wood/sheet/mangrove"
+	}
+}

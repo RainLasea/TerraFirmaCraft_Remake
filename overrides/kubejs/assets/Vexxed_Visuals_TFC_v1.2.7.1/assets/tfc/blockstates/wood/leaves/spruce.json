@@ -1,0 +1,30 @@
+{
+	"variants": {
+		"": [
+			{
+				"model": "tfc:block/wood/leaves/spruce"
+			},
+			{
+				"model": "tfc:block/wood/leaves/mirrored/spruce"
+			},
+			{
+				"model": "tfc:block/wood/leaves/spruce",
+				"y": 180
+			},
+			{
+				"model": "tfc:block/wood/leaves/mirrored/spruce",
+				"y": 180
+			},
+			{
+				"model": "tfc:block/wood/leaves/spruce",
+				"x": 180,
+				"z": 180
+			},
+			{
+				"model": "tfc:block/wood/leaves/mirrored/spruce",
+				"x": 180,
+				"z": 180
+			}
+		]
+	}
+}

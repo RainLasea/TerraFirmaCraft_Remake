@@ -1,0 +1,46 @@
+{
+	"credit": "Made by @vexxel with Blockbench - https://github.com/vexxel",
+	"parent": "tfc:block/groundcover/template/ore_0",
+	"textures": {
+		"texture": "tfc:item/ore/small_native_copper"
+	},
+	"elements": [
+		{
+			"from": [7, 0, 9],
+			"to": [9, 1, 11],
+			"rotation": {"angle": -22.5, "axis": "y", "origin": [8.995, 0.755, 8.75]},
+			"faces": {
+				"east": {"uv": [6, 9, 8, 10], "texture": "#texture"},
+				"south": {"uv": [8, 8, 10, 9], "texture": "#texture"},
+				"west": {"uv": [5, 9, 7, 10], "texture": "#texture"},
+				"up": {"uv": [6, 9, 8, 11], "texture": "#texture"},
+				"down": {"uv": [7, 5, 9, 7], "texture": "#texture"}
+			}
+		},
+		{
+			"from": [9, 0, 6],
+			"to": [11, 1, 10],
+			"rotation": {"angle": -22.5, "axis": "y", "origin": [8.995, 0.755, 8.75]},
+			"faces": {
+				"north": {"uv": [6, 11, 8, 12], "texture": "#texture"},
+				"east": {"uv": [5, 8, 9, 9], "texture": "#texture"},
+				"south": {"uv": [8, 9, 10, 10], "texture": "#texture"},
+				"up": {"uv": [8, 6, 10, 10], "texture": "#texture"},
+				"down": {"uv": [5, 6, 7, 10], "rotation": 180, "texture": "#texture"}
+			}
+		},
+		{
+			"from": [6.99, 0.01, 6],
+			"to": [8.99, 2.01, 9],
+			"rotation": {"angle": -22.5, "axis": "y", "origin": [8.995, 0.755, 8.75]},
+			"faces": {
+				"north": {"uv": [5, 8, 7, 10], "texture": "#texture"},
+				"east": {"uv": [7, 5, 10, 7], "rotation": 180, "texture": "#texture"},
+				"south": {"uv": [6, 7, 8, 9], "texture": "#texture"},
+				"west": {"uv": [4, 10, 6, 7], "rotation": 270, "texture": "#texture"},
+				"up": {"uv": [5, 6, 7, 9], "texture": "#texture"},
+				"down": {"uv": [4, 6, 6, 9], "texture": "#texture"}
+			}
+		}
+	]
+}

@@ -1,0 +1,27 @@
+{
+  "loader": "forge:separate_transforms",
+  "gui_light": "front",
+  "base": {
+    "parent": "tfc:item/template_javelin_throwing",
+    "textures": {
+      "layer0": "tfc:item/metal/javelin/held/blue_steel"
+    }
+  },
+  "perspectives": {
+    "none": {
+      "parent": "tfc:item/template_javelin_throwing",
+      "textures": {
+        "layer0": "tfc:item/metal/javelin/held/blue_steel"
+      }
+    },
+    "fixed": {
+      "parent": "tfc:item/template_javelin_throwing",
+      "textures": {
+        "layer0": "tfc:item/metal/javelin/held/blue_steel"
+      }
+    },
+    "gui": {
+      "parent": "tfc:item/metal/javelin/blue_steel_gui"
+    }
+  }
+}

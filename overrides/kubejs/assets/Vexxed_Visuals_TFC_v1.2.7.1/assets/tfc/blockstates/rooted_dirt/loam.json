@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "tfc:block/rooted_dirt/loam"
+      },
+      {
+        "model": "tfc:block/rooted_dirt/loam",
+        "y": 90
+      },
+      {
+        "model": "tfc:block/rooted_dirt/loam",
+        "y": 180
+      },
+      {
+        "model": "tfc:block/rooted_dirt/loam",
+        "y": 270
+      }
+    ]
+  }
+}

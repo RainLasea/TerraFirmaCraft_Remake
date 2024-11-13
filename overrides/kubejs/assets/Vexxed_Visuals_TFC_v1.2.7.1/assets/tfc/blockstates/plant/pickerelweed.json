@@ -1,0 +1,65 @@
+{
+"multipart":
+	[
+		{
+		"when": {"stage":"0", "part":"upper"},
+		"apply":[
+			{"model":"tfc:block/plant/pickerelweed_0"},
+			{"model": "tfc:block/plant/pickerelweed_0", "y": 90 },
+			{"model": "tfc:block/plant/pickerelweed_0", "y": 180 },
+			{"model": "tfc:block/plant/pickerelweed_0", "y": 270 },
+			{"model":"tfc:block/plant/pickerelweed_0_1"},
+			{"model": "tfc:block/plant/pickerelweed_0_1", "y": 90 },
+			{"model": "tfc:block/plant/pickerelweed_0_1", "y": 180 },
+			{"model": "tfc:block/plant/pickerelweed_0_1", "y": 270 },
+			{"model":"tfc:block/plant/pickerelweed_0_2"},
+			{"model": "tfc:block/plant/pickerelweed_0_2", "y": 90 },
+			{"model": "tfc:block/plant/pickerelweed_0_2", "y": 180 },
+			{"model": "tfc:block/plant/pickerelweed_0_2", "y": 270 },
+			{"model":"tfc:block/plant/pickerelweed_0_3"},
+			{"model": "tfc:block/plant/pickerelweed_0_3", "y": 90 },
+			{"model": "tfc:block/plant/pickerelweed_0_3", "y": 180 },
+			{"model": "tfc:block/plant/pickerelweed_0_3", "y": 270 }
+		]},
+		{
+		"when": {"stage":"1", "part":"upper"},
+		"apply":[
+			{"model":"tfc:block/plant/pickerelweed_1"},
+			{"model": "tfc:block/plant/pickerelweed_1", "y": 90 },
+			{"model": "tfc:block/plant/pickerelweed_1", "y": 180 },
+			{"model": "tfc:block/plant/pickerelweed_1", "y": 270 },
+			{"model":"tfc:block/plant/pickerelweed_1_1"},
+			{"model": "tfc:block/plant/pickerelweed_1_1", "y": 90 },
+			{"model": "tfc:block/plant/pickerelweed_1_1", "y": 180 },
+			{"model": "tfc:block/plant/pickerelweed_1_1", "y": 270 },
+			{"model":"tfc:block/plant/pickerelweed_1_2"},
+			{"model": "tfc:block/plant/pickerelweed_1_2", "y": 90 },
+			{"model": "tfc:block/plant/pickerelweed_1_2", "y": 180 },
+			{"model": "tfc:block/plant/pickerelweed_1_2", "y": 270 },
+			{"model":"tfc:block/plant/pickerelweed_1_3"},
+			{"model": "tfc:block/plant/pickerelweed_1_3", "y": 90 },
+			{"model": "tfc:block/plant/pickerelweed_1_3", "y": 180 },
+			{"model": "tfc:block/plant/pickerelweed_1_3", "y": 270 }
+		]},
+		{
+		"when": {"stage":"2", "part":"upper"},
+		"apply":[
+			{"model":"tfc:block/plant/pickerelweed_2"},
+			{"model": "tfc:block/plant/pickerelweed_2", "y": 90 },
+			{"model": "tfc:block/plant/pickerelweed_2", "y": 180 },
+			{"model": "tfc:block/plant/pickerelweed_2", "y": 270 },
+			{"model":"tfc:block/plant/pickerelweed_2_1"},
+			{"model": "tfc:block/plant/pickerelweed_2_1", "y": 90 },
+			{"model": "tfc:block/plant/pickerelweed_2_1", "y": 180 },
+			{"model": "tfc:block/plant/pickerelweed_2_1", "y": 270 },
+			{"model":"tfc:block/plant/pickerelweed_2_2"},
+			{"model": "tfc:block/plant/pickerelweed_2_2", "y": 90 },
+			{"model": "tfc:block/plant/pickerelweed_2_2", "y": 180 },
+			{"model": "tfc:block/plant/pickerelweed_2_2", "y": 270 },
+			{"model":"tfc:block/plant/pickerelweed_2_3"},
+			{"model": "tfc:block/plant/pickerelweed_2_3", "y": 90 },
+			{"model": "tfc:block/plant/pickerelweed_2_3", "y": 180 },
+			{"model": "tfc:block/plant/pickerelweed_2_3", "y": 270 }
+		]}
+	]
+}

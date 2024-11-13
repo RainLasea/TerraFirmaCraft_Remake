@@ -1,0 +1,18 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"pipe": "firmalife:block/devices/copper_pipe/copper",
+		"particle": "#pipe"
+	},
+	"elements": [
+		{
+			"name": "off",
+			"from": [7, 6, 7],
+			"to": [9, 7, 9],
+			"faces": {
+				"up": {"uv": [13, 5, 15, 7], "texture": "#pipe"},
+				"down": {"uv": [13, 1, 15, 3], "texture": "#pipe"}
+			}
+		}
+	]
+}

@@ -1,0 +1,9 @@
+{
+	"parent": "tfc:block/barrel_side_vex",
+	"textures": {
+		
+		"outside": 		"tfc:block/wood/barrel/outside/maple",
+		"inside": 		"tfc:block/wood/barrel/inside/maple",
+		"sheet": 		"tfc:block/wood/sheet/maple"
+	}
+}

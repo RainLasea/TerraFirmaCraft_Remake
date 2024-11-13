@@ -1,0 +1,26 @@
+{
+	"variants": {
+		"lit=true,axis=x": [
+			{
+			  "model": "tfc:block/firepit_lit"
+			}
+		],
+		"lit=true,axis=z": [
+			{
+			  "model": "tfc:block/firepit_lit",
+			  "y": 270
+			}
+		],
+		"lit=false,axis=x": [
+			{
+			  "model": "tfc:block/firepit_unlit"
+			}
+		],
+		"lit=false,axis=z": [
+			{
+			  "model": "tfc:block/firepit_unlit",
+			  "y": 270
+			}
+		]
+	}
+}

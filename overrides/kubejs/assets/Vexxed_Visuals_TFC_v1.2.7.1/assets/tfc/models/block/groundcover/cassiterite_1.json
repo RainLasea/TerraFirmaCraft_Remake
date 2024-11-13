@@ -1,0 +1,35 @@
+{
+	"credit": "Made by @vexxel with Blockbench - https://github.com/vexxel",
+	"parent": "tfc:block/groundcover/template/ore_0",
+	"textures": {
+		"texture": "tfc:item/ore/small_cassiterite"
+	},
+	"elements": [
+		{
+			"from": [7, 0, 8],
+			"to": [9, 1, 11],
+			"rotation": {"angle": -22.5, "axis": "y", "origin": [8.5, 0.505, 8.5]},
+			"faces": {
+				"north": {"uv": [9, 5, 11, 6], "texture": "#texture"},
+				"east": {"uv": [4, 11, 7, 12], "texture": "#texture"},
+				"south": {"uv": [4, 10, 6, 11], "texture": "#texture"},
+				"west": {"uv": [8, 7, 11, 8], "texture": "#texture"},
+				"up": {"uv": [5, 8, 7, 11], "texture": "#texture"},
+				"down": {"uv": [8, 7, 10, 10], "texture": "#texture"}
+			}
+		},
+		{
+			"from": [8, 0.01, 6],
+			"to": [10, 1.01, 9],
+			"rotation": {"angle": -22.5, "axis": "y", "origin": [8.5, 0.505, 8.5]},
+			"faces": {
+				"north": {"uv": [4, 12, 6, 13], "texture": "#texture"},
+				"east": {"uv": [7, 6, 10, 7], "texture": "#texture"},
+				"south": {"uv": [8, 6, 10, 7], "texture": "#texture"},
+				"west": {"uv": [4, 9, 7, 10], "texture": "#texture"},
+				"up": {"uv": [7, 5, 9, 8], "texture": "#texture"},
+				"down": {"uv": [6, 8, 8, 11], "texture": "#texture"}
+			}
+		}
+	]
+}

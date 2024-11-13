@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+      "layer0": "eatinganimation:item/red_apple_eating_0"
+    }
+  }

@@ -1,0 +1,9 @@
+{
+	"parent": "tfc:block/barrel_sealed_vex",
+	"textures": {
+		
+		"outside": 		"tfc:block/wood/barrel/outside/white_cedar",
+		"inside": 		"tfc:block/wood/barrel/inside/white_cedar",
+		"sheet": 		"tfc:block/wood/sheet/white_cedar"
+	}
+}

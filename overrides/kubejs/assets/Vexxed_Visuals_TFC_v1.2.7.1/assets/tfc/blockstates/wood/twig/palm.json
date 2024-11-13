@@ -1,0 +1,36 @@
+{
+	"variants": {
+		"": [
+			{
+				"model": "tfc:block/wood/twig/palm"
+			},
+			{
+				"model": "tfc:block/wood/twig/palm",
+				"y": 90
+			},
+			{
+				"model": "tfc:block/wood/twig/palm",
+				"y": 180
+			},
+			{
+				"model": "tfc:block/wood/twig/palm",
+				"y": 270
+			},
+			{
+				"model": "tfc:block/wood/twig/45/palm"
+			},
+			{
+				"model": "tfc:block/wood/twig/45/palm",
+				"y": 90
+			},
+			{
+				"model": "tfc:block/wood/twig/45/palm",
+				"y": 180
+			},
+			{
+				"model": "tfc:block/wood/twig/45/palm",
+				"y": 270
+			}
+		]
+	}
+}

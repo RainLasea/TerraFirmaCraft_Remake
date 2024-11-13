@@ -1,0 +1,23 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "block/block",
+	"textures": {
+		"4": "tfc:block/devices/firepit/grill_top",
+		"5": "tfc:block/devices/firepit/grill_sides",
+		"particle": "tfc:block/devices/firepit/grill_top"
+	},
+	"elements": [
+		{
+			"name": "grate",
+			"from": [1.5, 0, 1.5],
+			"to": [14.5, 1, 14.5],
+			"faces": {
+				"north": {"uv": [0, 0, 13, 1], "texture": "#5"},
+				"east": {"uv": [0, 0, 13, 1], "texture": "#5"},
+				"south": {"uv": [0, 0, 13, 1], "texture": "#5"},
+				"west": {"uv": [0, 0, 13, 1], "texture": "#5"},
+				"up": {"uv": [0, 0, 13, 13], "rotation": 90, "texture": "#4"}
+			}
+		}
+	]
+}

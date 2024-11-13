@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "tfc:block/sand/brown"
+      },
+      {
+        "model": "tfc:block/sand/brown",
+        "y": 90
+      },
+      {
+        "model": "tfc:block/sand/brown",
+        "y": 180
+      },
+      {
+        "model": "tfc:block/sand/brown",
+        "y": 270
+      }
+    ]
+  }
+}

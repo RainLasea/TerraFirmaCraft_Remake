@@ -1,0 +1,9 @@
+{
+	"parent": "tfc:block/barrel_side_sealed_rack_vex",
+	"textures": {
+		
+		"outside": 		"tfc:block/wood/barrel/outside/willow",
+		"inside": 		"tfc:block/wood/barrel/inside/willow",
+		"sheet": 		"tfc:block/wood/sheet/willow"
+	}
+}

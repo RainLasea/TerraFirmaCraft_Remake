@@ -1,0 +1,38 @@
+{
+	"variants": {
+        "lit=true": [
+            {
+    			"model": "tfc:block/firepit_pot_lit"
+    		},
+            {
+    			"model": "tfc:block/firepit_pot_lit",
+                "y": 90
+    		},
+            {
+    			"model": "tfc:block/firepit_pot_lit",
+                "y": 180
+    		},
+            {
+    			"model": "tfc:block/firepit_pot_lit",
+                "y": 270
+    		}
+		],
+		"lit=false": [
+            {
+    			"model": "tfc:block/firepit_pot_unlit"
+    		},
+            {
+    			"model": "tfc:block/firepit_pot_unlit",
+                "y": 90
+    		},
+            {
+    			"model": "tfc:block/firepit_pot_unlit",
+                "y": 180
+    		},
+            {
+    			"model": "tfc:block/firepit_pot_unlit",
+                "y": 270
+    		}
+		]
+	}
+}

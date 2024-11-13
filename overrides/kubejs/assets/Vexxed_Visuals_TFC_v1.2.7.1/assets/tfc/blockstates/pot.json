@@ -1,0 +1,60 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "multipart": [
+    {
+      "when": {
+        "axis": "x"
+      },
+      "apply": {
+        "model": "tfc:block/firepit_pot",
+		"y": 90
+      }
+    },
+    {
+      "when": {
+        "axis": "z"
+      },
+      "apply": {
+        "model": "tfc:block/firepit_pot"
+      }
+    },
+    {
+      "when": {
+        "lit": true,
+        "axis": "x"
+      },
+      "apply": {
+        "model": "tfc:block/firepit_lit_pot"
+      }
+    },
+    {
+      "when": {
+        "lit": true,
+        "axis": "z"
+      },
+      "apply": {
+        "model": "tfc:block/firepit_lit_pot",
+		"y": 270
+      }
+    },
+    {
+      "when": {
+        "lit": false,
+        "axis": "x"
+      },
+      "apply": {
+        "model": "tfc:block/firepit_unlit"
+      }
+    },
+    {
+      "when": {
+        "lit": false,
+        "axis": "z"
+      },
+      "apply": {
+        "model": "tfc:block/firepit_unlit",
+		"y": 270
+      }
+    }
+  ]
+}

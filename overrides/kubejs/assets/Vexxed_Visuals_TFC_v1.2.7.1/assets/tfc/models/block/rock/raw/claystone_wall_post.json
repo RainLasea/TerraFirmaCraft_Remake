@@ -1,0 +1,8 @@
+{
+	"parent":"tfc:block/template_wall_post_ud",
+	"textures":
+	{
+		"wall":"tfc:block/rock/raw/claystone",
+		"updown":"tfc:block/rock/raw/claystone_ud"
+	}
+}

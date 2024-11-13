@@ -1,0 +1,4 @@
+{"parent":"tfc:block/rock/anvil","textures":{
+	"texture":"tfc:block/rock/raw/gabbro",
+	"texture_up":"tfc:block/rock/anvil/gabbro"
+}}

@@ -1,0 +1,30 @@
+{
+	"variants": {
+		"": [
+			{
+				"model": "tfc:block/wood/leaves/hickory"
+			},
+			{
+				"model": "tfc:block/wood/leaves/mirrored/hickory"
+			},
+			{
+				"model": "tfc:block/wood/leaves/hickory",
+				"y": 180
+			},
+			{
+				"model": "tfc:block/wood/leaves/mirrored/hickory",
+				"y": 180
+			},
+			{
+				"model": "tfc:block/wood/leaves/hickory",
+				"x": 180,
+				"z": 180
+			},
+			{
+				"model": "tfc:block/wood/leaves/mirrored/hickory",
+				"x": 180,
+				"z": 180
+			}
+		]
+	}
+}

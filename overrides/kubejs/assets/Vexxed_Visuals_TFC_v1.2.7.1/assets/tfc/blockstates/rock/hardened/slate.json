@@ -1,0 +1,30 @@
+{
+	"variants": {
+		"": [
+			{
+				"model": "tfc:block/rock/raw/slate"
+			},
+			{
+				"model": "tfc:block/rock/raw/mirrored/slate"
+			},
+			{
+				"model": "tfc:block/rock/raw/slate",
+				"y": 180
+			},
+			{
+				"model": "tfc:block/rock/raw/mirrored/slate",
+				"y": 180
+			},
+			{
+				"model": "tfc:block/rock/raw/slate",
+				"x": 180,
+				"z": 180
+			},
+			{
+				"model": "tfc:block/rock/raw/mirrored/slate",
+				"x": 180,
+				"z": 180
+			}
+		]
+	}
+}

@@ -1,0 +1,51 @@
+{
+	"variants": {
+		"": [
+			{
+				"model": "firmalife:block/groundcover/chromite_0"
+			},
+			{
+				"model": "firmalife:block/groundcover/chromite_0",
+				"y": 90
+			},
+			{
+				"model": "firmalife:block/groundcover/chromite_0",
+				"y": 180
+			},
+			{
+				"model": "firmalife:block/groundcover/chromite_0",
+				"y": 270
+			},
+			{
+				"model": "firmalife:block/groundcover/chromite_1"
+			},
+			{
+				"model": "firmalife:block/groundcover/chromite_1",
+				"y": 90
+			},
+			{
+				"model": "firmalife:block/groundcover/chromite_1",
+				"y": 180
+			},
+			{
+				"model": "firmalife:block/groundcover/chromite_1",
+				"y": 270
+			},
+			{
+				"model": "firmalife:block/groundcover/chromite_2"
+			},
+			{
+				"model": "firmalife:block/groundcover/chromite_2",
+				"y": 90
+			},
+			{
+				"model": "firmalife:block/groundcover/chromite_2",
+				"y": 180
+			},
+			{
+				"model": "firmalife:block/groundcover/chromite_2",
+				"y": 270
+			}
+		]
+	}
+}

@@ -1,0 +1,101 @@
+{
+	"credit": "Made by Vexxel#9727 with Blockbench || https://github.com/Vexxel || © Vexxel. All rights reserved.",
+	"textures": {
+		"1": "tfc:block/fruit_tree/fruit/plum",
+		"3": "tfc:block/fruit_tree/plum_fruiting_leaves",
+		"particle": "tfc:block/fruit_tree/plum_fruiting_leaves"
+	},
+	"elements": [
+		{
+			"name": "leaves",
+			"from": [0, 0, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#3", "cullface": "north"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#3", "cullface": "east"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#3", "cullface": "south"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#3", "cullface": "west"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#3", "cullface": "up"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#3", "cullface": "down"}
+			}
+		},
+		{
+			"name": "fruit",
+			"from": [2, 10, 1],
+			"to": [5, 14, 4],
+			"faces": {
+				"north": {"uv": [0, 3, 3, 7], "texture": "#1"},
+				"east": {"uv": [0, 3, 3, 7], "texture": "#1"},
+				"south": {"uv": [0, 3, 3, 7], "texture": "#1"},
+				"west": {"uv": [0, 3, 3, 7], "texture": "#1"},
+				"up": {"uv": [0, 0, 3, 3], "texture": "#1"},
+				"down": {"uv": [0, 0, 3, 3], "texture": "#1"}
+			}
+		},
+		{
+			"name": "fruit",
+			"from": [11, 3, 3],
+			"to": [14, 7, 6],
+			"faces": {
+				"north": {"uv": [4, 3, 7, 7], "texture": "#1"},
+				"east": {"uv": [4, 3, 7, 7], "texture": "#1"},
+				"south": {"uv": [4, 3, 7, 7], "texture": "#1"},
+				"west": {"uv": [4, 3, 7, 7], "texture": "#1"},
+				"up": {"uv": [4, 0, 7, 3], "texture": "#1"},
+				"down": {"uv": [4, 0, 7, 3], "texture": "#1"}
+			}
+		},
+		{
+			"name": "fruit",
+			"from": [10, 8, 9],
+			"to": [13, 12, 12],
+			"faces": {
+				"north": {"uv": [0, 3, 3, 7], "texture": "#1"},
+				"east": {"uv": [0, 3, 3, 7], "texture": "#1"},
+				"south": {"uv": [0, 3, 3, 7], "texture": "#1"},
+				"west": {"uv": [0, 3, 3, 7], "texture": "#1"},
+				"up": {"uv": [0, 0, 3, 3], "texture": "#1"},
+				"down": {"uv": [0, 0, 3, 3], "texture": "#1"}
+			}
+		},
+		{
+			"name": "fruit",
+			"from": [3, 4, 11],
+			"to": [6, 8, 14],
+			"faces": {
+				"north": {"uv": [4, 3, 7, 7], "texture": "#1"},
+				"east": {"uv": [4, 3, 7, 7], "texture": "#1"},
+				"south": {"uv": [4, 3, 7, 7], "texture": "#1"},
+				"west": {"uv": [4, 3, 7, 7], "texture": "#1"},
+				"up": {"uv": [4, 0, 7, 3], "texture": "#1"},
+				"down": {"uv": [4, 0, 7, 3], "texture": "#1"}
+			}
+		},
+		{
+			"name": "fruit",
+			"from": [9, -2, 9],
+			"to": [12, 2, 12],
+			"faces": {
+				"north": {"uv": [0, 3, 3, 7], "texture": "#1"},
+				"east": {"uv": [0, 3, 3, 7], "texture": "#1"},
+				"south": {"uv": [0, 3, 3, 7], "texture": "#1"},
+				"west": {"uv": [0, 3, 3, 7], "texture": "#1"},
+				"up": {"uv": [0, 0, 3, 3], "texture": "#1"},
+				"down": {"uv": [0, 0, 3, 3], "texture": "#1"}
+			}
+		},
+		{
+			"name": "fruit",
+			"from": [3, -2, 2],
+			"to": [6, 2, 5],
+			"faces": {
+				"north": {"uv": [4, 3, 7, 7], "texture": "#1"},
+				"east": {"uv": [4, 3, 7, 7], "texture": "#1"},
+				"south": {"uv": [4, 3, 7, 7], "texture": "#1"},
+				"west": {"uv": [4, 3, 7, 7], "texture": "#1"},
+				"up": {"uv": [4, 0, 7, 3], "texture": "#1"},
+				"down": {"uv": [4, 0, 7, 3], "texture": "#1"}
+			}
+		}
+	]
+}

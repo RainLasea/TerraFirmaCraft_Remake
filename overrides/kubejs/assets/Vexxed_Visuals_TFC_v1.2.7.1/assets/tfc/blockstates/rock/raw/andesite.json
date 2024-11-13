@@ -1,0 +1,11 @@
+{
+  "variants": {
+    "": [
+      {"model": "tfc:block/rock/raw/andesite"          , "weight": 4},
+      {"model": "tfc:block/rock/raw/variant/andesite_1", "weight": 1},
+      {"model": "tfc:block/rock/raw/variant/andesite_2", "weight": 3},
+      {"model": "tfc:block/rock/raw/variant/andesite_3", "weight": 3},
+      {"model": "tfc:block/rock/raw/variant/andesite_4", "weight": 3}
+    ]
+  }
+}

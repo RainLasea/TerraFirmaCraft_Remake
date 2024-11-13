@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+      "layer0": "eatinganimation:item/barley_bread_eating_2"
+    }
+  }

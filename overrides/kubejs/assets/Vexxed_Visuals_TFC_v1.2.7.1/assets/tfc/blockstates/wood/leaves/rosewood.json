@@ -1,0 +1,30 @@
+{
+	"variants": {
+		"": [
+			{
+				"model": "tfc:block/wood/leaves/rosewood"
+			},
+			{
+				"model": "tfc:block/wood/leaves/mirrored/rosewood"
+			},
+			{
+				"model": "tfc:block/wood/leaves/rosewood",
+				"y": 180
+			},
+			{
+				"model": "tfc:block/wood/leaves/mirrored/rosewood",
+				"y": 180
+			},
+			{
+				"model": "tfc:block/wood/leaves/rosewood",
+				"x": 180,
+				"z": 180
+			},
+			{
+				"model": "tfc:block/wood/leaves/mirrored/rosewood",
+				"x": 180,
+				"z": 180
+			}
+		]
+	}
+}

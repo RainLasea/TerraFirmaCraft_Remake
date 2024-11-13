@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "": [
+      {"model": "tfc:block/rock/cobble/conglomerate"			},
+      {"model": "tfc:block/rock/cobble/variant/conglomerate_1"	},
+      {"model": "tfc:block/rock/cobble/variant/conglomerate_2"	},
+	  {"model": "tfc:block/rock/cobble/variant/conglomerate_3"	}
+    ]
+  }
+}

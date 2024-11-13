@@ -1,0 +1,21 @@
+{
+	"variants": {
+		"": [
+			{
+				"model": "tfc:block/plant/tree_fern"
+			},
+			{
+				"model": "tfc:block/plant/tree_fern",
+				"y": 90
+			},
+			{
+				"model": "tfc:block/plant/tree_fern",
+				"y": 180
+			},
+			{
+				"model": "tfc:block/plant/tree_fern",
+				"y": 270
+			}
+		]
+	}
+}

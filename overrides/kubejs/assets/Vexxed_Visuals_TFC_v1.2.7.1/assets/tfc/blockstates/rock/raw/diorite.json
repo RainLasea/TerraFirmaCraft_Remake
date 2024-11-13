@@ -1,0 +1,90 @@
+{
+	"variants": {
+		"": [
+			{
+				"model": "tfc:block/rock/raw/diorite"
+			},
+			{
+				"model": "tfc:block/rock/raw/mirrored/diorite"
+			},
+			{
+				"model": "tfc:block/rock/raw/diorite",
+				"y": 90
+			},
+			{
+				"model": "tfc:block/rock/raw/mirrored/diorite",
+				"y": 90
+			},
+			{
+				"model": "tfc:block/rock/raw/diorite",
+				"y": 180
+			},
+			{
+				"model": "tfc:block/rock/raw/mirrored/diorite",
+				"y": 180
+			},
+			{
+				"model": "tfc:block/rock/raw/diorite",
+				"y": 270
+			},
+			{
+				"model": "tfc:block/rock/raw/mirrored/diorite",
+				"y": 270
+			},
+			{
+				"model": "tfc:block/rock/raw/diorite",
+				"x": 90
+			},
+			{
+				"model": "tfc:block/rock/raw/mirrored/diorite",
+				"x": 90
+			},
+			{
+				"model": "tfc:block/rock/raw/diorite",
+				"x": 180
+			},
+			{
+				"model": "tfc:block/rock/raw/mirrored/diorite",
+				"x": 180
+			},
+			{
+				"model": "tfc:block/rock/raw/diorite",
+				"x": 270
+			},
+			{
+				"model": "tfc:block/rock/raw/mirrored/diorite",
+				"x": 270
+			},
+			{
+				"model": "tfc:block/rock/raw/diorite",
+				"x": 90,
+				"y": 90
+			},
+			{
+				"model": "tfc:block/rock/raw/mirrored/diorite",
+				"x": 90,
+				"y": 90
+			},
+			{
+				"model": "tfc:block/rock/raw/diorite",
+				"x": 180,
+				"y": 180
+			},
+			{
+				"model": "tfc:block/rock/raw/mirrored/diorite",
+				"x": 180,
+				"y": 180
+			},
+			{
+				"model": "tfc:block/rock/raw/diorite",
+				"x": 270,
+				"y": 270
+			},
+			{
+				"model": "tfc:block/rock/raw/mirrored/diorite",
+				"x": 270,
+				"y": 270
+			}
+		]
+	}
+}

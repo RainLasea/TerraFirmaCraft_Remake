@@ -1,0 +1,8 @@
+{
+    "parent":"tfc:block/ore",
+    "textures":{
+        "all":"tfc:block/ore_raw_rock/dolomite/iron",
+        "particle":"tfc:block/rock/raw/dolomite",
+        "overlay":"kubejs:block/ore/normal_aluminum"
+    }
+}

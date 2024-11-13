@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "tfc:block/rock/gravel/dacite"
+      },
+      {
+        "model": "tfc:block/rock/gravel/dacite",
+        "y": 180, "x": 180, "z": 180
+      }
+    ]
+  }
+}

@@ -1,0 +1,73 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "block/block",
+	"textures": {
+		"particle": "#sheet",
+		"log": "tfc:block/wood/stripped_log/oak",
+		"sheet": "tfc:block/wood/sheet/oak",
+		"planks": "tfc:block/wood/planks/oak"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 4],
+			"to": [16, 1, 15],
+			"faces": {
+				"north": {"uv": [0, 15, 16, 16], "texture": "#sheet"},
+				"east": {"uv": [1, 15, 12, 16], "texture": "#log"},
+				"west": {"uv": [4, 15, 15, 16], "texture": "#log"},
+				"up": {"uv": [0, 4, 16, 15], "texture": "#sheet"},
+				"down": {"uv": [0, 1, 16, 12], "texture": "#log"}
+			}
+		},
+		{
+			"from": [0, 15, 4],
+			"to": [16, 16, 15],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 1], "texture": "#sheet"},
+				"east": {"uv": [1, 0, 12, 1], "texture": "#log"},
+				"west": {"uv": [4, 0, 15, 1], "texture": "#log"},
+				"up": {"uv": [0, 4, 16, 15], "texture": "#log"},
+				"down": {"uv": [0, 1, 16, 12], "texture": "#sheet"}
+			}
+		},
+		{
+			"from": [15, 1, 4],
+			"to": [16, 15, 15],
+			"faces": {
+				"north": {"uv": [0, 1, 1, 15], "texture": "#sheet"},
+				"east": {"uv": [1, 1, 12, 15], "texture": "#log"},
+				"west": {"uv": [4, 1, 15, 15], "texture": "#sheet"}
+			}
+		},
+		{
+			"from": [0, 1, 4],
+			"to": [1, 15, 15],
+			"faces": {
+				"north": {"uv": [15, 1, 16, 15], "texture": "#sheet"},
+				"east": {"uv": [1, 1, 12, 15], "texture": "#sheet"},
+				"west": {"uv": [4, 1, 15, 15], "texture": "#log"}
+			}
+		},
+		{
+			"from": [1, 7, 5],
+			"to": [15, 8, 15],
+			"faces": {
+				"north": {"uv": [1, 13, 15, 14], "texture": "#sheet"},
+				"up": {"uv": [15, 0, 1, 10], "texture": "#planks"},
+				"down": {"uv": [15, 0, 1, 10], "rotation": 180, "texture": "#planks"}
+			}
+		},
+		{
+			"from": [0, 0, 15],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#sheet"},
+				"east": {"uv": [0, 0, 1, 16], "texture": "#log"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#log"},
+				"west": {"uv": [15, 0, 16, 16], "texture": "#log"},
+				"up": {"uv": [0, 15, 16, 16], "texture": "#log"},
+				"down": {"uv": [0, 0, 16, 1], "texture": "#log"}
+			}
+		}
+	]
+}

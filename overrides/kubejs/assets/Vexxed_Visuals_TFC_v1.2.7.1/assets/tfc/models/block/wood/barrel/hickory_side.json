@@ -1,0 +1,9 @@
+{
+	"parent": "tfc:block/barrel_side_vex",
+	"textures": {
+		
+		"outside": 		"tfc:block/wood/barrel/outside/hickory",
+		"inside": 		"tfc:block/wood/barrel/inside/hickory",
+		"sheet": 		"tfc:block/wood/sheet/hickory"
+	}
+}

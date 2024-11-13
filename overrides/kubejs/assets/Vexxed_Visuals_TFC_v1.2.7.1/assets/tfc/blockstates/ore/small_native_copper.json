@@ -1,0 +1,51 @@
+{
+	"variants": {
+		"": [
+			{
+				"model": "tfc:block/groundcover/native_copper_0"
+			},
+			{
+				"model": "tfc:block/groundcover/native_copper_0",
+				"y": 90
+			},
+			{
+				"model": "tfc:block/groundcover/native_copper_0",
+				"y": 180
+			},
+			{
+				"model": "tfc:block/groundcover/native_copper_0",
+				"y": 270
+			},
+			{
+				"model": "tfc:block/groundcover/native_copper_1"
+			},
+			{
+				"model": "tfc:block/groundcover/native_copper_1",
+				"y": 90
+			},
+			{
+				"model": "tfc:block/groundcover/native_copper_1",
+				"y": 180
+			},
+			{
+				"model": "tfc:block/groundcover/native_copper_1",
+				"y": 270
+			},
+			{
+				"model": "tfc:block/groundcover/native_copper_2"
+			},
+			{
+				"model": "tfc:block/groundcover/native_copper_2",
+				"y": 90
+			},
+			{
+				"model": "tfc:block/groundcover/native_copper_2",
+				"y": 180
+			},
+			{
+				"model": "tfc:block/groundcover/native_copper_2",
+				"y": 270
+			}
+		]
+	}
+}

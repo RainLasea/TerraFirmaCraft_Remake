@@ -1,0 +1,53 @@
+{
+	"credit": "Made by Vexxel#9727 with Blockbench || https://github.com/Vexxel || 2022",
+	"ambientocclusion": false,
+	"textures": {
+		"1": "tfc:block/plant/duckweed/duckweed_hanging",
+		"particle": "tfc:block/plant/duckweed/duckweed",
+		"pad": "tfc:block/plant/duckweed/duckweed"
+	},
+	"elements": [
+		{
+			"from": [0, 0.25, 0],
+			"to": [16, 0.25, 16],
+			"faces": {
+				"up": {"uv": [16, 0, 0, 16], "texture": "#pad", "tintindex": 0},
+				"down": {"uv": [16, 16, 0, 0], "texture": "#pad", "tintindex": 0}
+			}
+		},
+		{
+			"from": [2, -11, -1],
+			"to": [2, 0, 15],
+			"faces": {
+				"east": {"uv": [0, 0, 16, 11], "texture": "#1", "tintindex": 0},
+				"west": {"uv": [0, 0, 16, 11], "texture": "#1", "tintindex": 0}
+			}
+		},
+		{
+			"from": [12, -11, -1],
+			"to": [12, 0, 15],
+			"faces": {
+				"east": {"uv": [0, 0, 16, 11], "texture": "#1", "tintindex": 0},
+				"west": {"uv": [0, 0, 16, 11], "texture": "#1", "tintindex": 0}
+			}
+		},
+		{
+			"from": [-1, -11, 2],
+			"to": [15, 0, 2],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 11], "texture": "#1", "tintindex": 0},
+				"south": {"uv": [0, 0, 16, 11], "texture": "#1", "tintindex": 0}
+			}
+		},
+		{
+			"from": [-1, -11, 12],
+			"to": [15, 0, 12],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 11], "texture": "#1", "tintindex": 0},
+				"south": {"uv": [0, 0, 16, 11], "texture": "#1", "tintindex": 0}
+			}
+		}
+	]
+}
