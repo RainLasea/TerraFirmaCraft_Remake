@@ -1,7 +1,0 @@
-{
-	"parent":"block/cube_column",
-	"textures":{
-		"end":"tfc:item/stick_bundle_top",
-		"side":"tfc:item/stick_bundle"
-	}
-}

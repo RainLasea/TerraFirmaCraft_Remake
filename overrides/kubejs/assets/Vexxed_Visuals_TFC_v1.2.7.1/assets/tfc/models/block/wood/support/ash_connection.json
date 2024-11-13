@@ -1,7 +1,0 @@
-{
-	"parent": "tfc:block/wood/support/connection_vex",
-	"textures": {
-		"texture": 	"tfc:block/wood/support/horizontal/ash",
-		"top": 		"tfc:block/wood/support/top/ash"
-	}
-}
