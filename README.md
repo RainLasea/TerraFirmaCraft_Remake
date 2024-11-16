@@ -2,7 +2,16 @@
 
 > 完全基于群峦原版的游戏体验的整合包。  
 
-![This is an image](https://github.com/RainLasea/TerraFirmaCraft_Remake/blob/main/overrides/icon.png?raw=true)  
+<div align="center">
+    <img src="https://github.com/RainLasea/TerraFirmaCraft_Remake/blob/main/overrides/icon.png?raw=true" height="380" width="660"/>
+</div>
+
+<h4 align="center">
+  <a href="https://github.com/RainLasea/TerraFirmaCraft_Remake/blob/main/LICENSE"><img src="https://img.shields.io/badge/MIT_LICENSE-green"></a>
+  <img src="https://img.shields.io/badge/For_MC-1.20.1-orange">
+  <a href="https://ifdian.net/"><img src="https://img.shields.io/badge/%E7%88%B1%E5%8F%91%E7%94%B5-%E6%9C%AA%E5%BC%80%E6%94%BE-8a62da" alt="暂未开放"></a>
+</h4>
+
 **TerraFirmaCraft Remake**（译为群峦传说：重制）是一款偏向原生整合的群峦整合包。  
 本整合包的功能尽量以数据包，KubeJS 脚本来实现一些有趣的特性。
 
