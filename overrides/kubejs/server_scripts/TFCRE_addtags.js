@@ -39,4 +39,18 @@ ServerEvents.tags("item", (event) => {
     event.add("tfc:ores/aluminum/normal", NORMAL_ALUMINUMS);
     event.add("tfc:ores/aluminum/poor", POOR_ALUMINUMS);
     event.add("tfc:ores/aluminum/rich", RICH_ALUMINUMS);
+    event.add("tfc:metal/toolhead",new RegExp ('tfc:metal/pickaxe_head/'))
+    event.add("tfc:metal/toolhead",new RegExp ('tfc:metal/propick_head/'))
+    event.add("tfc:metal/toolhead",new RegExp ('tfc:metal/axe_head/'))
+    event.add("tfc:metal/toolhead",new RegExp ('tfc:metal/shovel_head/'))
+    event.add("tfc:metal/toolhead",new RegExp ('tfc:metal/hoe_head/'))
+    event.add("tfc:metal/toolhead",new RegExp ('tfc:metal/chisel_head/'))
+    event.add("tfc:metal/toolhead",new RegExp ('tfc:metal/hammer_head/'))
+    event.add("tfc:metal/toolhead",new RegExp ('tfc:metal/saw_blade/'))
+    event.add("tfc:metal/toolhead",new RegExp ('tfc:metal/knife_blade/'))
+    event.add("tfc:metal/toolhead",new RegExp ('tfc:metal/scythe_blade/'))
+    event.add("tfc:metal/toolhead",new RegExp ('tfc:metal/javelin_head/'))
+    event.add("tfc:metal/toolhead",new RegExp ('tfc:metal/sword_blade/'))
+    event.add("tfc:metal/toolhead",new RegExp ('tfc:metal/mace_head/'))
+
 });

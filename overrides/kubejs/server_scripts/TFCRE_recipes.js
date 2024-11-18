@@ -6,7 +6,6 @@ ServerEvents.recipes(event => {
     event.remove({id: 'tfc:crafting/metal/axe/copper'})
     event.remove({id: 'tfc:crafting/metal/axe/bismuth_bronze'})
     event.remove({id: 'tfc:crafting/metal/axe/black_bronze'})
-    event.remove({id: 'minecraft:brush'})
     event.shapeless('tfc:kaolin_clay', ['minecraft:clay_ball','3x tfc:powder/flux'])
     event.shaped('tfc:fire_clay', [
         'KPK',
@@ -23,9 +22,9 @@ ServerEvents.recipes(event => {
     event.recipes.tfc.quern('7x tfc:powder/aluminum','tfc:ore/rich_aluminum')
 
     event.shaped('minecraft:brush', [
-        ' F ',
+        '  F',
         ' C ',
-        ' S '
+        'S  '
     ],
     {
         F: 'minecraft:feather',
