@@ -1,0 +1,34 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "name": "水袋材料",
+  "category": "tfc:waterflasks",
+  "icon": "waterflasks:bladder",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "有效水存储的关键在于重复利用之前存储水（或类似物）的物品。$(br2)$(bold)膀胱！$()$(br)只有某些动物具有适合此目的的膀胱，而某些物种的膀胱更容易提取。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(br)$(bold)动物____________概率$(br)$()羊__________________10%$(br)猪__________________10%$(br)山羊________________10%$(br)鹿__________________10%$(br)马科动物___________20%$(br)熊__________________20%$(br)牛科动物___________50%$(br)驼鹿________________50%$(br)$(br)要提高你的成功率，请使用更高伤害的武器来屠宰动物。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "waterflasks:leather_side",
+      "title": "皮革水袋侧片",
+      "link_recipes": false,
+      "text": "水袋侧片用于两种水袋的制作配方。"
+    },
+    {
+      "type": "tfc:knapping_recipe",
+      "recipe": "waterflasks:leather_knapping/leather_side",
+      "text": "皮革水袋侧片是用皮革制成的，以保护膀胱免受刺穿。"
+    }
+  ],
+  "read_by_default": true,
+  "sortnum": 0,
+  "extra_recipe_mappings": {
+    "waterflasks:bladder": 0,
+    "waterflasks:leather_side": 2
+  }
+}

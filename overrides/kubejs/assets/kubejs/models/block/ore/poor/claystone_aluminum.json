@@ -1,0 +1,8 @@
+{
+    "parent":"tfc:block/ore",
+    "textures":{
+        "all":"tfc:block/ore_raw_rock/claystone/iron_poor",
+        "particle":"tfc:block/rock/raw/claystone",
+        "overlay":"kubejs:block/ore/poor/aluminum"
+    }
+}

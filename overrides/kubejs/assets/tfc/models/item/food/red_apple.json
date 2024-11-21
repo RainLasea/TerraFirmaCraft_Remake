@@ -1,0 +1,29 @@
+{
+  "parent": "minecraft:item/generated",
+  "overrides": [
+    {
+      "model": "eatinganimation:item/red_apple_eating_0",
+      "predicate": {
+        "eatinganimation:eat": 0.35,
+        "eatinganimation:eating": 1.0
+      }
+    },
+    {
+      "model": "eatinganimation:item/red_apple_eating_1",
+      "predicate": {
+        "eatinganimation:eat": 0.7,
+        "eatinganimation:eating": 1.0
+      }
+    },
+    {
+      "model": "eatinganimation:item/red_apple_eating_2",
+      "predicate": {
+        "eatinganimation:eat": 0.9,
+        "eatinganimation:eating": 1.0
+      }
+    }
+  ],
+  "textures": {
+    "layer0": "tfc:item/food/red_apple"
+  }
+}
