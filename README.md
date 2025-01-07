@@ -9,7 +9,7 @@
 <h4 align="center">
   <a href="https://github.com/RainLasea/TerraFirmaCraft_Remake/blob/main/LICENSE"><img src="https://img.shields.io/badge/MIT_LICENSE-green"></a>
   <img src="https://img.shields.io/badge/For_MC-1.20.1-orange">
-  <a href="https://ifdian.net/a/Abyss_Lasea"><img src="https://img.shields.io/badge/%E7%88%B1%E5%8F%91%E7%94%B5-%E6%84%9F%E8%B0%A2%E8%B5%9E%E5%8A%A9-8a62da"></a>
+  <a href="https://ifdian.net/a/Abyss_Lasea"><img src="https://img.shields.io/badge/%E7%88%B1%E5%8F%91%E7%94%B5-%E6%84%9F%E8%B0%A2%E8%B5%9E%E5%8A%A9-8a62da?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAC4jAAAuIwF4pT92AAAA9ElEQVRYhe2WzQ3DIAyFH1XVUTJElsosLJUhskkvdS9FMilgm5/kwpOiHILyPox54IgId+pxq/sEmAAAnsJ3vkXclQAEANt6AAD8vozwzgJQMGbmQ2afAzibA/FSaKQGLgLwSljk9yUAiyAuE8VRD9RKs3w5gAgkKAXk96UIKkFIAEWgHJQFwhpEjj3qJfqNS87UAkDsTa39YQUIhrStR3Nz1gA4qdlGA3QreS1AJOvZUBqv3YZdKpDajtJxbPp5LqiY/rJAW4EXgLe1Cj2iOBoL4KOF0B7j1igGWKKdYaRy9wJIwlhMuVqbsPmmdPuteAJMgC/HCWayKJszAwAAAABJRU5ErkJggg=="></a>
 </h4>
 
 **TerraFirmaCraft Remake**（译为群峦传说：重制）是一款偏向原生整合的群峦整合包。  
