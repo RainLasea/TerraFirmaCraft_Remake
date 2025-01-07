@@ -76,5 +76,7 @@
     "power.origins.tfcre.hyperopia.name":"§c● 远视§r",
     "power.origins.tfcre.hyperopia.description":"-15%近战伤害",
     "power.origins.tfcre.claustrophobia.name":"§c● 幽闭恐惧症§r",
-    "power.origins.tfcre.claustrophobia.description":"-10%挖掘速度"
+    "power.origins.tfcre.claustrophobia.description":"-10%挖掘速度",
+
+    "travelerstitles.biome.tfc.plains":"\uE586"
 }

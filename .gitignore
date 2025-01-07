@@ -1,3 +1,5 @@
+.gitignore
+.vscode
 overrides/kubejs/jsconfig.json
 overrides/kubejs/README.txt
 overrides/kubejs/config/probejs.json
