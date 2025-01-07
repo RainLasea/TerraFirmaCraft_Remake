@@ -54,7 +54,27 @@
     "block.tfc.ore.rich_chalk.aluminum":"富集白垩岩铝土矿",
     "item.tfcre.music_disc_again":"音乐唱片",
     "item.tfcre.music_disc_again.desc":"Again - Abyss_Lasea",
-    "jeijs.info.tfctool":"有工具头部后，副手手持木棍，主手手持工具头部右键即可制作工具",
     "key.keybinding.key":"TFCRe控件",
-    "key.kubejs.sit":"坐下"
+    "key.kubejs.sit":"坐下",
+
+    "layer.origins.origins.name":"职业",
+    "layer.origins.tfcre.civilians":"平民",
+    "description.origins.tfcre.civilians":"§b离开你的旧生活，踏入新的世界§r \n平民是来自各地的普通人才。虽然他们没有突出技能或优势可言，但他们也没有专业人才的缺点。",
+    "layer.origins.tfcre.hunter":"猎人",
+    "description.origins.tfcre.hunter":"§b释放箭矢，击杀野兽。把他带回去给将死的孩子。最终，孩子还是未能救活。§r\n猎人是野生森林、平原和山区地形的生存专家。他们害怕地下封闭的空间。",
+
+    "power.origins.tfcre.mediocre.name":"§f● 平庸§r",
+    "power.origins.tfcre.mediocre.description":"没有正面或负面特性",
+    "power.origins.tfcre.focus.name":"§a● 专注§r",
+    "power.origins.tfcre.focus.description":"+20%远程伤害，+20%远程距离",
+    "power.origins.tfcre.resourceful.name":"§a● 机智§r",
+    "power.origins.tfcre.resourceful.description":"+10%动物掉落，+25%动物收获速度",
+    "power.origins.tfcre.surefootedly.name":"§a● 稳健§r",
+    "power.origins.tfcre.surefootedly.description":"+10%行走速度",
+    "power.origins.tfcre.bow_crafter.name":"§a● 弓匠§r",
+    "power.origins.tfcre.bow_crafter.description":"专属合成§6§n特殊的弓§r",
+    "power.origins.tfcre.hyperopia.name":"§c● 远视§r",
+    "power.origins.tfcre.hyperopia.description":"-15%近战伤害",
+    "power.origins.tfcre.claustrophobia.name":"§c● 幽闭恐惧症§r",
+    "power.origins.tfcre.claustrophobia.description":"-10%挖掘速度"
 }

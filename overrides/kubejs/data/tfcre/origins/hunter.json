@@ -1,0 +1,9 @@
+{
+    "name": "layer.origins.tfcre.hunter",
+    "description": "description.origins.tfcre.hunter",
+    "icon":{"item":"tfcre:hunter_hat"},
+    "impact":1,
+    "powers":[
+        "tfcre:focus","tfcre:resourceful","tfcre:surefootedly","tfcre:bow_crafter","tfcre:hyperopia","tfcre:claustrophobia"
+    ]
+}

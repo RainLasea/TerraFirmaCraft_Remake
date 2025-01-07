@@ -1,0 +1,16 @@
+{
+    "name":"tfcre:section_bridge",
+    "fallback": "minecraft:empty",
+    "elements": [
+      {
+        "weight": 1,
+        "element": {
+          "element_type": "minecraft:legacy_single_pool_element",
+          "location": "tfcre:section_bridge/section_bridge",
+          "projection": "rigid",
+          "processors": "minecraft:empty"
+        }
+      }
+    ]
+  }
+  
