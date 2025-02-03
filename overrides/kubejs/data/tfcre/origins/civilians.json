@@ -1,7 +1,0 @@
-{
-    "name": "layer.origins.tfcre.civilians",
-    "description": "description.origins.tfcre.civilians",
-    "icon":{"item":"tfcre:farmer_hat"},
-    "impact":0,
-    "powers":["tfcre:mediocre"]
-}

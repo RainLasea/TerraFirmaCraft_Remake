@@ -78,5 +78,8 @@
     "power.origins.tfcre.claustrophobia.name":"§c● 幽闭恐惧症§r",
     "power.origins.tfcre.claustrophobia.description":"-10%挖掘速度",
 
-    "travelerstitles.biome.tfc.plains":"\uE586"
+    "travelerstitles.biome.tfc.plains":"\uE586",
+
+    "kubejs.ponder.pit_kiln.header": "坑窑",
+    "kubejs.ponder.pit_kiln.text_1": "按下\u0027§aV§r\u0027来放置物品"
 }

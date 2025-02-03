@@ -16,4 +16,7 @@ StartupEvents.registry("minecraft:item", (event) => {
         .tag("tfc:powders")
         .tag("forge:dusts")
         .maxStackSize(64);
+
+    event.create("tfcre:farmer_hat").texture("kubejs:item/farmer_hat")
+    event.create("tfcre:hunter_hat").texture("kubejs:item/hunter_hat")
 });

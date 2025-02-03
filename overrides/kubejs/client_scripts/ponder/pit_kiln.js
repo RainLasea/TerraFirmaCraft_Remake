@@ -1,7 +1,7 @@
 Ponder.registry((event) => {
     event
         .create("tfc:ceramic/unfired_jug")
-        .scene("kubejs:pit_kiln", "坑窑", "kubejs:pit_kiln", (scene, util) => {
+        .scene("kubejs:pit_kiln", "Pit Kiln", "kubejs:pit_kiln", (scene, util) => {
             for (let x = 0; x < 3; x++) {
                 for (let z = 0; z < 3; z++) {
                     scene.world.showSection([x, 0, z], Facing.DOWN);
@@ -21,7 +21,7 @@ Ponder.registry((event) => {
                 scene.idle(1);
             };
             scene.world.setBlocks([1, 2, 1], "tfc:placed_item");
-            scene.text(30, "按下'§aV§r'来放置物品", [1, 2.5, 1]).colored(PonderPalette.MEDIUM);
+            scene.text(30, "Press\u0027§aV§r\u0027to place the item", [1, 2.5, 1]).colored(PonderPalette.MEDIUM);
             scene.world.modifyTileNBT([1, 2, 1], (nbt) => {
                 nbt.inventory = {
                     Size: 4,
