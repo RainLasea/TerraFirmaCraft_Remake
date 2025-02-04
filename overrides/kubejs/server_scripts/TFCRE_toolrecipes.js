@@ -37,3 +37,10 @@ ItemEvents.firstRightClicked(event => {
         });
     }
 });
+PlayerEvents.inventoryChanged(event => {
+    if (event.player.persistentData.contains('has_seen_tagged_item')) return;
+    if (event.item.hasTag('tfc:metal/toolhead') || event.item.hasTag('tfc:stone/toolhead')) {
+        event.player.notify(Text.translatable('notify.kubejs.toolrecipes.title'),Text.translatable('notify.kubejs.toolrecipes.text'));
+        event.player.persistentData.putBoolean('has_seen_tagged_item', true);
+    }
+});

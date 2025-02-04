@@ -56,7 +56,10 @@
     "item.tfcre.music_disc_again.desc":"Again - Abyss_Lasea",
     "key.keybinding.key":"TFCRe控件",
     "key.kubejs.sit":"坐下",
-
+    
+    "notify.kubejs.toolrecipes.title":"§a合成教程",
+    "notify.kubejs.toolrecipes.text":"  部分工具需要双手持物品进行合成 详情请在工具头部的JEI中查询",
+    
     "layer.origins.origins.name":"职业",
     "layer.origins.tfcre.civilians":"平民",
     "description.origins.tfcre.civilians":"§b离开你的旧生活，踏入新的世界§r \n平民是来自各地的普通人才。虽然他们没有突出技能或优势可言，但他们也没有专业人才的缺点。",

@@ -39,7 +39,7 @@ ServerEvents.tags("item", (event) => {
     event.add("tfc:ores/aluminum/normal", NORMAL_ALUMINUMS);
     event.add("tfc:ores/aluminum/poor", POOR_ALUMINUMS);
     event.add("tfc:ores/aluminum/rich", RICH_ALUMINUMS);
-    let ToolTypes = ['pickaxe_head','propick_head','axe_head','shovel_head','hoe_head','chisel_head','hammer_head','saw_blade','knife_blade'];
+    let ToolTypes = ['pickaxe_head','propick_head','axe_head','shovel_head','hoe_head','chisel_head','hammer_head'];
     let metalRegex = new RegExp(`^tfc:metal/(${ToolTypes.join('|')})/.+$`);
     let stoneRegex = new RegExp(`^tfc:stone/(${ToolTypes.join('|')})/.+$`);
     event.add('tfc:metal/toolhead', metalRegex);

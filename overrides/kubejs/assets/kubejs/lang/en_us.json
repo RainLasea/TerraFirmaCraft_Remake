@@ -1,4 +1,9 @@
 {
+    "notify.kubejs.toolrecipes.title": "§aCrafting Tutorial",
+    "notify.kubejs.toolrecipes.text": "Some tools require two hands to craft. Please refer to the JEI for details on tool heads.",
+
     "kubejs.ponder.pit_kiln.header": "Pit Kiln",
-    "kubejs.ponder.pit_kiln.text_1": "Press\u0027§aV§r\u0027to place the item"
+    "kubejs.ponder.pit_kiln.text_1": "Press\u0027§aV§r\u0027to place the item",
+
+    "travelerstitles.biome.tfc.plains":"\uE586"
 }
