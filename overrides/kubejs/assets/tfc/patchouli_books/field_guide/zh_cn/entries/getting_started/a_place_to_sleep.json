@@ -1,0 +1,40 @@
+{
+  "name": "如何过夜",
+  "category": "tfc:getting_started",
+  "icon": "minecraft:red_bed",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "在游戏早期你可以做一张$(thing)干草床$()。$(br2)虽然不能用它来设置重生点，但至少可以用来跳过夜晚。$(br2)要搭建干草床，在地上放置两个相邻的$(thing)干草块$()，然后手持一张$(thing)大块兽皮$()右击干草块。只有大型动物会掉落大块兽皮，例如$(thing)熊$()和$(thing)牛$()。"
+    },
+    {
+      "type": "patchouli:multiblock",
+      "multiblock": {
+        "pattern": [
+          [" D ", " 0 "]
+        ],
+        "mapping": {
+          "0": "tfc:thatch_bed[part=head,facing=east]",
+          "D": "tfc:thatch_bed[part=foot,facing=east]"
+        }
+      },
+      "name": "干草床",
+      "text": "一张干草床。",
+      "enable_visualize": false
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(br2)你也可以用木板和干草捆制作一张$(thing)床$()。$(br2)请记住！只有在你累的时候才能睡着，假设你一连睡了好几觉那么即使到了晚上你也是无论如何也睡不着的。$(br2)你也可以为床$(thing)染色$()。"
+    },
+    {
+      "type":"patchouli:crafting",
+      "recipe":"minecraft:kjs/white_bed",
+      "recipe2":"minecraft:kjs/red_bed"
+    }
+  ],
+  "read_by_default": true,
+  "sortnum": 8,
+  "extra_recipe_mappings": {
+    "tfc:thatch_bed": 0
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "name": "How to Spend the Night",
+  "category": "tfc:getting_started",
+  "icon": "minecraft:red_bed",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "In the early game, you can make a $(thing)thatch bed$(). $(br2)Although it cannot be used to set a respawn point, it can at least be used to skip the night. $(br2)To build a thatch bed, place two adjacent $(thing)thatch blocks$() on the ground, then right-click the thatch blocks while holding a $(thing)large animal hide$(). Only large animals drop large hides, such as $(thing)bears$() and $(thing)cows$()."
+    },
+    {
+      "type": "patchouli:multiblock",
+      "multiblock": {
+        "pattern": [
+          [" D ", " 0 "]
+        ],
+        "mapping": {
+          "0": "tfc:thatch_bed[part=head,facing=east]",
+          "D": "tfc:thatch_bed[part=foot,facing=east]"
+        }
+      },
+      "name": "Thatch Bed",
+      "text": "A thatch bed.",
+      "enable_visualize": false
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(br2)You can also craft a $(thing)bed$() using planks and hay bales. $(br2)Remember! You can only sleep when you are tired. If you have already slept multiple times in a row, you won't be able to sleep again, even if it's nighttime. $(br2)You can also $(thing)dye$() the bed."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:kjs/white_bed",
+      "recipe2": "minecraft:kjs/red_bed"
+    }
+  ],
+  "read_by_default": true,
+  "sortnum": 8,
+  "extra_recipe_mappings": {
+    "tfc:thatch_bed": 0
+  }
+}

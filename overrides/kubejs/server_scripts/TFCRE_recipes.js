@@ -2,33 +2,14 @@ ServerEvents.recipes(event => {
     event.remove({input: '#tfc:metal/toolhead'})
     event.remove({input: '#tfc:stone/toolhead'})
     event.shapeless('tfc:kaolin_clay', ['minecraft:clay_ball','3x tfc:powder/flux'])
-    event.shaped('tfc:fire_clay', [
-        'KPK',
-        'PCP',
-        'KPK'
-    ],
-    {
-        K: 'tfc:powder/kaolinite',
-        P: 'tfc:powder/aluminum',
-        C: 'minecraft:clay_ball'
-    })
+    event.shaped('tfc:fire_clay', ['KPK','PCP','KPK'],{K: 'tfc:powder/kaolinite',P: 'tfc:powder/aluminum',C: 'minecraft:clay_ball'})
     
     event.recipes.tfc.quern('3x tfc:powder/aluminum','tfc:ore/poor_aluminum')
     event.recipes.tfc.quern('5x tfc:powder/aluminum','tfc:ore/normal_aluminum')
     event.recipes.tfc.quern('7x tfc:powder/aluminum','tfc:ore/rich_aluminum')
 
-    event.shaped('minecraft:brush', [
-        '  F',
-        ' C ',
-        'S  '
-    ],
-    {
-        F: 'minecraft:feather',
-        C: 'tfc:metal/sheet/copper',
-        S: 'minecraft:stick'
-    })
+    event.shaped('minecraft:brush', ['  F',' C ','S  '],{F: 'minecraft:feather',C: 'tfc:metal/sheet/copper',S: 'minecraft:stick'})
     event.remove({id: 'minecraft:brush'})
-
     event.remove({id: 'minecraft:arrow'})
     event.shaped('minecraft:arrow',
         [' A ',' S ',' F '],{A:'tfc:stone/arrow_hand',S:'minecraft:stick',F:'minecraft:feather'}
@@ -37,12 +18,12 @@ ServerEvents.recipes(event => {
 //床
 ServerEvents.recipes(event => {
     event.remove({output: '#minecraft:beds'});
-    let ingredients = {S: 'tfc:stick_bunch', L: '#minecraft:logs', H: 'minecraft:hay_block'};
+    let ingredients = {L: '#tfc:lumber', P: '#minecraft:planks', H: 'minecraft:hay_block'};
 
     let createBed = (color, dye) => {
-        event.shaped(`minecraft:${color}_bed`, ['DDD', 'HHH', 'SLS'], Object.assign({}, ingredients, {D: `minecraft:${dye}`}));
+        event.shaped(`minecraft:${color}_bed`, ['DDD', 'HHH', 'LPL'], Object.assign({}, ingredients, {D: `minecraft:${dye}`}));
     };
-    event.shaped('minecraft:white_bed', ['HHH', 'SLS'], ingredients);
+    event.shaped('minecraft:white_bed', ['HHH', 'LPL'], ingredients);
     
     let beds = [
         {color: 'light_gray', dye: 'light_gray_dye'},
