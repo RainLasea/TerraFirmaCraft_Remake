@@ -19,4 +19,5 @@ StartupEvents.registry("minecraft:item", (event) => {
 
     event.create("tfcre:farmer_hat").texture("kubejs:item/farmer_hat")
     event.create("tfcre:hunter_hat").texture("kubejs:item/hunter_hat")
+    event.create("tfc:stone/arrow_hand").texture("kubejs:item/arrow_hand").maxStackSize(16)
 });
