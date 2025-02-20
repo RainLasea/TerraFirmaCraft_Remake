@@ -10,7 +10,7 @@ ItemEvents.firstRightClicked(event => {
     if (MainHandItem.isEmpty()) return;
     if (event.player.getPersistentData().isCrafting) return;
     
-    let forgingBonusMatch = event.item.nbt ? event.item.nbt["tfc:forging_bonus"] : null;
+    let forgingBonusMatch = /"tfc:forging_bonus":(\d+)/.exec(MainHandItem.nbt);
     let forgingBonus = forgingBonusMatch ? forgingBonusMatch[1] : null;
 
     let ToolTypesMatch = /tfc:([a-z_]+)+\/([a-z_]+)_head\/([a-z_]+)/.exec(MainHandItem.id);
