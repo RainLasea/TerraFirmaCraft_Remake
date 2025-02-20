@@ -1,7 +1,0 @@
-#Add items to this list that should be excluded from the index, intended for creative-only items such as spawn eggs.
-#Format for every entry is "<namespace>:<path>". Tags are supported, must be in the format of "#<namespace>:<path>". Namespace may be omitted to use "minecraft" by default. May use asterisk as wildcard parameter via pattern matching, e.g. "minecraft:*_shulker_box" to match all shulker boxes no matter of color.
-blacklist = ["minecraft:*","alekiroofs:*","astikorcarts:*","tfcastikorcarts:*","patchouli:guide_book","origins:orb_of_origin","chiselsandbits_tfc:*","chiselsandbits:*","tfc:ore/*","tfc:deposit/*","tfc:rock/*","firmalife:ore/*"]
-#Choose which screens to add the Completionist's Index button to.
-#Allowed Values: PAUSE_MENU, INVENTORY_MENU, BOTH
-index_button_screen = "INVENTORY_MENU"
-
