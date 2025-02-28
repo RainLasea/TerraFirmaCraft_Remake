@@ -41,3 +41,21 @@ StartupEvents.registry("block", (event) => {
     commonAluminumOreBlockBuilder("chert"); // 硅质岩
     commonAluminumOreBlockBuilder("chalk"); // 白垩岩
 });
+StartupEvents.modifyCreativeTab('tfc:ores', event => {
+    let blockTypes = ["poor", "normal", "rich"];
+    let rockTypes = ["granite", "shale", "claystone", "limestone", "conglomerate", "dolomite", "chert", "chalk"];
+    for (let rock of rockTypes) {
+        for (let type of blockTypes) {
+            event.add(`tfc:ore/${type}_${rock}/aluminum`);
+        }
+    }
+});
+StartupEvents.modifyCreativeTab('kubejs:tab', event =>{
+    let blockTypes = ["poor", "normal", "rich"];
+    let rockTypes = ["granite", "shale", "claystone", "limestone", "conglomerate", "dolomite", "chert", "chalk"];
+    for (let rock of rockTypes) {
+        for (let type of blockTypes) {
+            event.remove([`tfc:ore/${type}_${rock}/aluminum`,'tfcre:farmer_hat','tfcre:hunter_hat']);
+        }
+    }
+})

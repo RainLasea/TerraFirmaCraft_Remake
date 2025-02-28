@@ -21,3 +21,19 @@ StartupEvents.registry("minecraft:item", (event) => {
     event.create("tfcre:hunter_hat").texture("kubejs:item/hunter_hat")
     event.create("tfc:stone/arrow_hand").texture("kubejs:item/arrow_hand").maxStackSize(16)
 });
+StartupEvents.modifyCreativeTab('tfc:ores', event => {
+    event.addAfter('tfc:ore/rich_tetrahedrite', ['tfc:ore/rich_aluminum', 'tfc:ore/normal_aluminum', 'tfc:ore/poor_aluminum']);
+});
+
+StartupEvents.modifyCreativeTab('tfc:misc', event => {
+    event.addAfter('tfc:blank_disc', 'tfcre:music_disc_again')
+    event.addAfter('tfc:powder/tetrahedrite', 'tfc:powder/aluminum')
+    event.add('tfc:stone/arrow_hand');
+});
+
+StartupEvents.modifyCreativeTab('kubejs:tab', event => {
+    event.remove([
+        'tfc:ore/rich_aluminum', 'tfc:ore/normal_aluminum', 'tfc:ore/poor_aluminum',
+        'tfcre:music_disc_again', 'tfc:powder/aluminum', 'tfc:stone/arrow_hand'
+    ]);
+});
