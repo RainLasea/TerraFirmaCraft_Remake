@@ -29,3 +29,12 @@ BlockEvents.rightClicked(event => {
         neighborBlock.setBlockState(neighborBlock.blockState.setValue(open, !bs.getValue(open) ? $Boolean.TRUE : $Boolean.FALSE), 3)
     }
 })
+
+PlayerEvents.advancement(event => {
+    let { player, advancement } = event;
+    if (advancement === 'tfcre:root') {
+        if (!player.tags.contains('first_night_passed')) {
+            player.tags.add('first_night_passed');
+        }
+    }
+});

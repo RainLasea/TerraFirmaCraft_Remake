@@ -1,4 +1,6 @@
 {
+    "advancement.tfcre.root.title":"Welcome to §fTerraFirmaCraft§r",
+    "advancement.tfcre.root.description":"Survive your first night",
     "notify.kubejs.toolrecipes.title": "§aCrafting Tutorial",
     "notify.kubejs.toolrecipes.text": "Some tools require two hands to craft. Please refer to the JEI for details on tool heads.",
 
