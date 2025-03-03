@@ -44,4 +44,7 @@ ServerEvents.tags("item", (event) => {
     let stoneRegex = new RegExp(`^tfc:stone/(${ToolTypes.join('|')})/.+$`);
     event.add('tfc:metal/toolhead', metalRegex);
     event.add('tfc:stone/toolhead', stoneRegex);
+    let StoneToolTypes = ['pickaxe','propick','axe','shovel','hoe','chisel','hammer'];
+    let stoneToolRegex = new RegExp(`^tfc:stone/(${StoneToolTypes.join('|')})/.+$`);
+    event.add('tfc:stonetools', stoneToolRegex);
 });
