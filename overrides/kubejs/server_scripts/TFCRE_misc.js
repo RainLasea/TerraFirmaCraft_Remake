@@ -38,3 +38,10 @@ PlayerEvents.advancement(event => {
         }
     }
 });
+PlayerEvents.loggedIn(event=>{
+    let player = event.player;
+    if(!player.stages.has("oneInGame")){
+        player.tell(Text.translatable("script.tfcre.firsttip"))
+        player.stages.add("oneInGame")
+    }
+})

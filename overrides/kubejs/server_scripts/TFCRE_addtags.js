@@ -47,4 +47,16 @@ ServerEvents.tags("item", (event) => {
     let StoneToolTypes = ['pickaxe','propick','axe','shovel','hoe','chisel','hammer'];
     let stoneToolRegex = new RegExp(`^tfc:stone/(${StoneToolTypes.join('|')})/.+$`);
     event.add('tfc:stonetools', stoneToolRegex);
+    let tags = [
+        "tfc:log_pile_logs",
+        "tfc:firepit_fuel",
+        "tfc:firepit_logs",
+        "tfc:pit_kiln_logs",
+        "firmalife:oven_fuel",
+        "firmalife:smoking_fuel"
+    ];
+    tags.forEach(tag => {
+        event.removeAll(tag);
+        event.add(tag, 'tfc:firewood');
+    });
 });

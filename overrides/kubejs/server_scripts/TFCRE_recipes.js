@@ -15,6 +15,13 @@ ServerEvents.recipes(event => {
         [' A ',' S ',' F '],{A:'tfc:stone/arrow_hand',S:'minecraft:stick',F:'minecraft:feather'}
     )
 });
+ServerEvents.recipes((event) => {
+    let { kubejs } = event.recipes;
+  
+    kubejs
+      .shapeless("4x tfc:firewood", ["#minecraft:logs", "#minecraft:axes"])
+      .damageIngredient("#minecraft:axes",3);
+  });
 //床
 ServerEvents.recipes(event => {
     event.remove({output: '#minecraft:beds'});
