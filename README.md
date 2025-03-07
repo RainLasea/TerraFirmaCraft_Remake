@@ -27,7 +27,7 @@ The functionalities of this ModPack are implemented as much as possible using da
 - [Xaero's Vanilla GUI](https://modrinth.com/resourcepack/xaeros-vanilla-gui)  
 - [Icons - Xaero Minimap X Fresh Animations](https://www.curseforge.com/minecraft/texture-packs/icons-xaero-minimap-x-fresh-animations)  
 - [Vexxed Visuals: TerraFirmaCraft](https://www.curseforge.com/minecraft/texture-packs/terrafirmacraft-vexxed-visuals)
-
+- [Detailed Animations](https://modrinth.com/resourcepack/detailed-animations)
 ------------
 
 
