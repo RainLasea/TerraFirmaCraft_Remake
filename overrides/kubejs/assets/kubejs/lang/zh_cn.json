@@ -3,6 +3,7 @@
     "script.tfcre.firsttip":"(这个信息只会在§5测试版§r中看到)你最好在夜晚来临前做出§2火把§r或者§2篝火§r",
     "advancement.tfcre.root.title":"欢迎来到 §f群峦传说§r",
     "advancement.tfcre.root.description":"熬过你的第一个夜晚",
+    "tfcre.tip.firewood":"原版群峦不一样的是，烧碳与篝火燃料需要柴火",
     "tip.tfcre.stonetool.burnish":"可§2修复§r次数",
     "recipes.tfcre.stonetool.burnish":"工具会被修复，而不是变为展示的输出物",
     "item.tfc.ore.poor_aluminum":"贫瘠铝土矿",
@@ -63,6 +64,8 @@
     "item.tfcre.music_disc_again.desc":"Again - Abyss_Lasea",
     "key.keybinding.key":"TFCRe控件",
     "key.kubejs.sit":"坐下",
+
+    "boll.tfcre.thanks":"由衷的感谢您",
     
     "notify.kubejs.toolrecipes.title":"§a合成教程",
     "notify.kubejs.toolrecipes.text":"  部分工具需要双手持物品进行合成 详情请在工具头部的JEI中查询",
@@ -88,6 +91,7 @@
     "power.origins.tfcre.claustrophobia.name":"§c● 幽闭恐惧症§r",
     "power.origins.tfcre.claustrophobia.description":"-10%挖掘速度",
 
+    "//":"Please do not translate this, it is an icon",
     "travelerstitles.biome.tfc.plains":"\uE586",
 
     "kubejs.ponder.pit_kiln.header": "坑窑",
