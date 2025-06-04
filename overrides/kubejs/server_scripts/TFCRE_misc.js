@@ -45,3 +45,71 @@ PlayerEvents.loggedIn(event=>{
         player.stages.add("oneInGame")
     }
 })
+PlayerEvents.tick((event) => {
+  let { player } = event;
+
+  let blockConversions = {
+    "tfc:grass/silt":"tfc:dirt/silt",
+    "tfc:clay_grass/silt":"tfc:clay/silt",
+    "tfc:grass/loam": "tfc:dirt/loam",
+    "tfc:clay_grass/loam":"tfc:clay/loam",
+    "tfc:grass/sandy_loam": "tfc:dirt/sandy_loam",
+    "tfc:clay_grass/sandy_loam":"tfc:clay/sandy_loam",
+    "tfc:grass/silty_loam":"tfc:dirt/silty_loam",
+    "tfc:clay_grass/silty_loam":"tfc:clay/silty_loam",
+    "tfc:peat_grass":"tfc:peat",
+    "tfc:kaolin_clay_grass":"tfc:red_kaolin_clay"
+  };
+
+  let blockBelow = player.block.down.id;
+  
+  if (player.fallDistance > 1 && blockConversions[blockBelow]) {
+    if (Math.random() < 0.03) {
+      player.block.down.set(blockConversions[blockBelow]);
+    }
+  }
+});
+
+let activeParticles = 0;
+
+PlayerEvents.tick(event => {
+    const { player, level, server } = event;
+    if (!player) return;
+
+    const mainIsTorch = player.getMainHandItem().is("minecraft:torch");
+    const offIsTorch = player.getOffHandItem().is("minecraft:torch");
+
+    if (activeParticles >= 1) return;
+    if (!mainIsTorch && !offIsTorch) return;
+
+    const yawDeg = player.yBodyRot;
+    const yawRad = yawDeg * (JavaMath.PI / 180);
+
+    const forwardX = -Math.sin(yawRad);
+    const forwardZ = Math.cos(yawRad);
+
+    const rightX = Math.cos(yawRad);
+    const rightZ = Math.sin(yawRad);
+
+    const forwardOffset = 0.37;
+    const sideOffset = -0.4;
+    const verticalOffset = -0.55;
+
+    const px = player.x + forwardX * forwardOffset + rightX * sideOffset;
+    const py = player.eyeY + verticalOffset;
+    const pz = player.z + forwardZ * forwardOffset + rightZ * sideOffset;
+    level.spawnParticles(
+        'minecraft:lava',
+        false,
+        px, py, pz,
+        1,
+        0.05, 0.02, 0.05,
+        0.005
+    );
+
+    activeParticles++;
+
+    server.scheduleInTicks(20, () => {
+        activeParticles = Math.max(0, activeParticles - 1);
+    });
+});
