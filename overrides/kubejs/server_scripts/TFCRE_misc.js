@@ -70,46 +70,84 @@ PlayerEvents.tick((event) => {
   }
 });
 
-let activeParticles = 0;
-
 PlayerEvents.tick(event => {
-    const { player, level, server } = event;
+    const { player, level } = event;
     if (!player) return;
 
-    const mainIsTorch = player.getMainHandItem().is("minecraft:torch");
-    const offIsTorch = player.getOffHandItem().is("minecraft:torch");
+    const data = player.getPersistentData();
+    let timer = data.getInt("particleTimer") || 0;
+    timer++;
 
-    if (activeParticles >= 1) return;
-    if (!mainIsTorch && !offIsTorch) return;
+    if (timer >= 5) {
+        timer = 0;
 
-    const yawDeg = player.yBodyRot;
-    const yawRad = yawDeg * (JavaMath.PI / 180);
+        const mainIsTorch = player.getMainHandItem().is("tfc:torch");
+        const offIsTorch  = player.getOffHandItem().is("tfc:torch");
 
-    const forwardX = -Math.sin(yawRad);
-    const forwardZ = Math.cos(yawRad);
+        if (mainIsTorch) {
+            spawnFlameParticleAtOffset(player, level, -0.4);
+        }
+        if (offIsTorch) {
+            spawnFlameParticleAtOffset(player, level, 0.4);
+        }
+    }
+    data.putInt("particleTimer", timer);
 
-    const rightX = Math.cos(yawRad);
-    const rightZ = Math.sin(yawRad);
+    const mainItem = player.getMainHandItem();
+    const offItem  = player.getOffHandItem();
+    const fluid    = player.getEyeInFluidType();
+    let fluidName  = "";
 
-    const forwardOffset = 0.37;
-    const sideOffset = -0.4;
-    const verticalOffset = -0.55;
+    if (fluid && typeof fluid.getDescriptionId === "function") {
+        fluidName = fluid.getDescriptionId();
+    }
 
-    const px = player.x + forwardX * forwardOffset + rightX * sideOffset;
-    const py = player.eyeY + verticalOffset;
-    const pz = player.z + forwardZ * forwardOffset + rightZ * sideOffset;
+    const isInWater =
+        fluidName.includes("block.minecraft.water");
+        // fluidName.includes("block.tfc.spring_water") ||
+        // fluidName.includes("block.tfc.salt_water");
+
+    let extinguished = false;
+
+    if (isInWater && mainItem.is("tfc:torch")) {
+        const countMain = mainItem.count;
+        player.setMainHandItem(Item.of("tfc:dead_torch").withCount(countMain));
+        extinguished = true;
+    }
+
+    if (isInWater && offItem.is("tfc:torch")) {
+        const countOff = offItem.count;
+        player.setOffHandItem(Item.of("tfc:dead_torch").withCount(countOff));
+
+        extinguished = true;
+    }
+});
+
+function spawnFlameParticleAtOffset(player, level, sideOffset) {
+    let yawRad = player.yBodyRot * (JavaMath.PI / 180);
+
+    let forwardX = -Math.sin(yawRad);
+    let forwardZ =  Math.cos(yawRad);
+    let rightX   =  Math.cos(yawRad);
+    let rightZ   =  Math.sin(yawRad);
+
+    let forwardOffset  = 0.37;
+    let verticalOffset = -0.55;
+
+    let px = player.x + forwardX * forwardOffset + rightX * sideOffset;
+    let py = player.eyeY + verticalOffset;
+    let pz = player.z + forwardZ * forwardOffset + rightZ * sideOffset;
+
     level.spawnParticles(
-        'minecraft:lava',
+        'minecraft:flame',
         false,
-        px, py, pz,
+        px,
+        py,
+        pz,
         1,
-        0.05, 0.02, 0.05,
+        0.05,
+        0.02,
+        0.05,
         0.005
     );
-
-    activeParticles++;
-
-    server.scheduleInTicks(20, () => {
-        activeParticles = Math.max(0, activeParticles - 1);
-    });
-});
+}
