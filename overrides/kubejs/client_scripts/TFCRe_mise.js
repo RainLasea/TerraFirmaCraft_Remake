@@ -1,7 +1,7 @@
 // AnimationJS.playerModel(event => {
 // 	const { playerModel, entity, ageInTicks } = event;
 
-// 	if (!isMoving) return; // 玩家没动就不执行动画
+// 	if (!isMoving) return;
 // 	// 抖动
 // 	let shakeZ = Math.sin(ageInTicks * 1.5) * 0.05;
 // 	let shakeX = Math.sin(ageInTicks * 1.5 + 1) * 0.02;

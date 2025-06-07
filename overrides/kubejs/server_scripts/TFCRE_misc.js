@@ -69,20 +69,17 @@ PlayerEvents.tick((event) => {
     }
   }
 });
-
 PlayerEvents.tick(event => {
-    const { player, level } = event;
+    const { player, level,server} = event;
     if (!player) return;
-
+    const mainIsTorch = player.getMainHandItem().is("tfc:torch");
+    const offIsTorch  = player.getOffHandItem().is("tfc:torch");
+    if(!mainIsTorch && !offIsTorch)return;
     const data = player.getPersistentData();
     let timer = data.getInt("particleTimer") || 0;
     timer++;
-
     if (timer >= 5) {
         timer = 0;
-
-        const mainIsTorch = player.getMainHandItem().is("tfc:torch");
-        const offIsTorch  = player.getOffHandItem().is("tfc:torch");
 
         if (mainIsTorch) {
             spawnFlameParticleAtOffset(player, level, -0.4);
@@ -92,21 +89,18 @@ PlayerEvents.tick(event => {
         }
     }
     data.putInt("particleTimer", timer);
-
     const mainItem = player.getMainHandItem();
     const offItem  = player.getOffHandItem();
     const fluid    = player.getEyeInFluidType();
     let fluidName  = "";
-
     if (fluid && typeof fluid.getDescriptionId === "function") {
         fluidName = fluid.getDescriptionId();
     }
-
     const isInWater =
-        fluidName.includes("block.minecraft.water");
-        // fluidName.includes("block.tfc.spring_water") ||
-        // fluidName.includes("block.tfc.salt_water");
-
+        fluidName.includes("block.minecraft.water") ||
+        fluidName.includes("fluid.tfc.spring_water") ||
+        fluidName.includes("fluid.tfc.salt_water") ||
+        fluidName.includes("fluid.firmalife.sugar_water");
     let extinguished = false;
 
     if (isInWater && mainItem.is("tfc:torch")) {
@@ -118,26 +112,20 @@ PlayerEvents.tick(event => {
     if (isInWater && offItem.is("tfc:torch")) {
         const countOff = offItem.count;
         player.setOffHandItem(Item.of("tfc:dead_torch").withCount(countOff));
-
         extinguished = true;
     }
 });
-
 function spawnFlameParticleAtOffset(player, level, sideOffset) {
     let yawRad = player.yBodyRot * (JavaMath.PI / 180);
-
     let forwardX = -Math.sin(yawRad);
     let forwardZ =  Math.cos(yawRad);
     let rightX   =  Math.cos(yawRad);
     let rightZ   =  Math.sin(yawRad);
-
     let forwardOffset  = 0.37;
     let verticalOffset = -0.55;
-
     let px = player.x + forwardX * forwardOffset + rightX * sideOffset;
     let py = player.eyeY + verticalOffset;
     let pz = player.z + forwardZ * forwardOffset + rightZ * sideOffset;
-
     level.spawnParticles(
         'minecraft:flame',
         false,
@@ -151,3 +139,9 @@ function spawnFlameParticleAtOffset(player, level, sideOffset) {
         0.005
     );
 }
+ServerEvents.tick(event => {
+    if (global.drunkLevel > 0) {
+        global.drunkLevel = Math.max(0, global.drunkLevel - 0.05);
+    }
+    smoothDrunk();
+});
