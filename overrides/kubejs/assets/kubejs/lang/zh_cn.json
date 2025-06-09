@@ -1,6 +1,7 @@
 {
     "toolinfo.jei.toolhead":"现在工具可以直接在手中合成，主手持工具头部，副手持木棍，对着空气右键进行合成",
     "script.tfcre.firsttip":"(这个信息只会在§5测试版§r中看到)你最好在夜晚来临前做出§2火把§r或者§2篝火§r",
+    "script.tfcre.advabcementtip":"整合包没有使用FTB任务,请多多查阅背包中的指南书与进度吧",
     "advancement.tfcre.root.title":"欢迎来到 §f群峦传说§r",
     "advancement.tfcre.root.description":"熬过你的第一个夜晚",
     "tfcre.tip.firewood":"原版群峦不一样的是，烧碳与篝火燃料需要柴火",

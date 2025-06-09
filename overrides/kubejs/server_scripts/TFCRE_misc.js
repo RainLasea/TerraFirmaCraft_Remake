@@ -42,6 +42,7 @@ PlayerEvents.loggedIn(event=>{
     let player = event.player;
     if(!player.stages.has("oneInGame")){
         player.tell(Text.translatable("script.tfcre.firsttip"))
+        player.tell(Text.translatable("script.tfcre.advabcementtip"))
         player.stages.add("oneInGame")
     }
 })
@@ -143,5 +144,4 @@ ServerEvents.tick(event => {
     if (global.drunkLevel > 0) {
         global.drunkLevel = Math.max(0, global.drunkLevel - 0.05);
     }
-    smoothDrunk();
 });
