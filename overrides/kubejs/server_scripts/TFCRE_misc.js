@@ -145,3 +145,30 @@ ServerEvents.tick(event => {
         global.drunkLevel = Math.max(0, global.drunkLevel - 0.05);
     }
 });
+
+// ServerEvents.tick(event => {
+//     if (!global.fakeEntities) return;
+
+//     let players = event.server.getPlayerList().getPlayers();
+
+//     for (let uuid in global.fakeEntities) {
+//         let stand = global.fakeEntities[uuid];
+
+//         let player = null;
+//         for (let p of players) {
+//             if (p.uuid.toString() === uuid) {
+//                 player = p;
+//                 break;
+//             }
+//         }
+
+//         if (player && stand) {
+//             stand.setPos(player.getX(), player.getY(), player.getZ());
+//             stand.setYRot(player.getYRot());
+//             stand.setXRot(player.getXRot());
+//         } else {
+//             stand.remove(Entity.RemovalReason.DISCARDED);
+//             delete global.fakeEntities[uuid];
+//         }
+//     }
+// });

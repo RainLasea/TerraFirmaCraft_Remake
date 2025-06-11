@@ -62,3 +62,34 @@ ForgeEvents.onEvent("net.minecraftforge.event.entity.living.LivingEntityUseItemE
         }
     }
 });
+
+// const EntityType = Java.loadClass("net.minecraft.world.entity.EntityType");
+// const ArmorStand = Java.loadClass("net.minecraft.world.entity.decoration.ArmorStand");
+// const Items = Java.loadClass("net.minecraft.world.item.Items");
+// const ItemStack = Java.loadClass("net.minecraft.world.item.ItemStack");
+// const InteractionHand = Java.loadClass("net.minecraft.world.InteractionHand");
+
+// global.fakeEntities = {};
+
+// ForgeEvents.onEvent("net.minecraftforge.event.entity.player.PlayerEvent$PlayerRespawnEvent", event => {
+//     let player = event.entity;
+//     if (player.level.isClientSide) return;
+
+//     let world = player.level;
+//     let stand = new ArmorStand(EntityType.ARMOR_STAND, world);
+
+//     stand.setInvisible(true);
+//     stand.setInvulnerable(true);
+//     stand.setNoGravity(true);
+
+//     stand.setMarker(true);
+//     stand.setSmall(true);
+
+//     stand.setPos(player.getX(), player.getY(), player.getZ());
+
+//     stand.setItemInHand(InteractionHand.MAIN_HAND, new ItemStack(Items.TORCH));
+
+//     world.addFreshEntity(stand);
+
+//     global.fakeEntities[player.uuid] = stand;
+// });

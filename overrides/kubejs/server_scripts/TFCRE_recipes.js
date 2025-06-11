@@ -1,6 +1,12 @@
 ServerEvents.recipes(event => {
     event.remove({input: '#tfc:metal/toolhead'})
     event.remove({input: '#tfc:stone/toolhead'})
+    event.remove({id:"tfc:crafting/stick_bunch"})
+    event.remove({id:"tfc:crafting/stick_from_bunch"})
+    event.remove({id:"tfc:crafting/stick_from_bundle"})
+    event.shapeless('tfc:stick_bunch',['4x minecraft:stick'])
+    event.shapeless('4x minecraft:stick',['tfc:stick_bunch'])
+    event.shapeless('8x minecraft:stick',['tfc:stick_bundle'])
     event.shapeless('tfc:kaolin_clay', ['minecraft:clay_ball','3x tfc:powder/flux'])
     event.shaped('tfc:fire_clay', ['KPK','PCP','KPK'],{K: 'tfc:powder/kaolinite',P: 'tfc:powder/aluminum',C: 'minecraft:clay_ball'})
     
