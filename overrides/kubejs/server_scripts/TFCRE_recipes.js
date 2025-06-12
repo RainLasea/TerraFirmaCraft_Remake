@@ -1,9 +1,8 @@
 ServerEvents.recipes(event => {
-    event.remove({input: '#tfc:metal/toolhead'})
-    event.remove({input: '#tfc:stone/toolhead'})
     event.remove({id:"tfc:crafting/stick_bunch"})
     event.remove({id:"tfc:crafting/stick_from_bunch"})
     event.remove({id:"tfc:crafting/stick_from_bundle"})
+    event.remove({id:"scoutreforked:satchels"})
     event.shapeless('tfc:stick_bunch',['4x minecraft:stick'])
     event.shapeless('4x minecraft:stick',['tfc:stick_bunch'])
     event.shapeless('8x minecraft:stick',['tfc:stick_bundle'])

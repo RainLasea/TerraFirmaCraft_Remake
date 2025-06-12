@@ -18,3 +18,18 @@ ServerEvents.recipes(event => {
             .outsideSlotRequired(false);
     });
 });
+//挎包
+ServerEvents.recipes(event => {
+    event.recipes.tfc.knapping(
+        'scoutreforked:satchel',
+        'tfc:leather',
+        [
+            'X   X',
+            'X   X',
+            'X   X',
+            'X   X',
+            'XXXXX'
+        ]
+    )
+    .outsideSlotRequired(false);
+});

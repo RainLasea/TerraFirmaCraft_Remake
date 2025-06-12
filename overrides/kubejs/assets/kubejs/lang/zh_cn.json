@@ -1,5 +1,4 @@
 {
-    "toolinfo.jei.toolhead":"现在工具可以直接在手中合成，主手持工具头部，副手持木棍，对着空气右键进行合成",
     "script.tfcre.firsttip":"(这个信息只会在§5测试版§r中看到)你最好在夜晚来临前做出§2火把§r或者§2篝火§r",
     "script.tfcre.advabcementtip":"整合包没有使用FTB任务,请多多查阅背包中的指南书与进度吧",
     "advancement.tfcre.root.title":"欢迎来到 §f群峦传说§r",
@@ -69,7 +68,7 @@
     "boll.tfcre.thanks":"由衷的感谢您",
     
     "notify.kubejs.toolrecipes.title":"§a合成教程",
-    "notify.kubejs.toolrecipes.text":"  部分工具需要双手持物品进行合成 详情请在工具头部的JEI中查询",
+    "notify.kubejs.toolrecipes.text":"  除了直接合成外，现在你也可以通过主手部件副手木棍进行工具的合成了",
     
     "layer.origins.origins.name":"职业",
     "layer.origins.tfcre.civilians":"平民",
