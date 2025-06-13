@@ -1,11 +1,18 @@
 {
-    "script.tfcre.firsttip": "(This message will only appear in the §5beta§r version) You'd better make §2torches§r or §2campfires§r before nightfall",
-    "script.tfcre.advabcementtip": "This modpack doesn't use FTB Quests. Please refer to the guidebook and advancements in your inventory",
-    "advancement.tfcre.root.title": "Welcome to §fTerraFirmaCraft: Reforged§r",
-    "advancement.tfcre.root.description": "Survive your first night",
-    "tfcre.tip.firewood": "Unlike vanilla TFC, charcoal and campfire fuel require firewood",
-    "tip.tfcre.stonetool.burnish": "§2Repair§r uses remaining",
-    "recipes.tfcre.stonetool.burnish": "Tools will be repaired instead of becoming a display output",
+    "script.tfcre.firsttip": "(This message will only appear in §5beta§r) You'd better make §2torches§r or §2campfires§r before nightfall.",
+    "script.tfcre.advabcementtip": "This modpack doesn't use FTB Quests. Please refer to the guidebook and advancements in your inventory.",
+    "advancement.tfcre.root.title": "Welcome to §fTerraFirmaCraft§r:§2Reloaded§r",
+    "advancement.tfcre.root.description": "From stone to steel, from savage to capitalist—every muscle of yours will remember this journey.",
+    "advancement.tfcre.icandoit.title": "I Can Do It!",
+    "advancement.tfcre.icandoit.description": "No bed to sleep? Congratulations on experiencing humanity's most primal helplessness.",
+    "advancement.tfcre.pickrocks.title": "First Step to Becoming a Geologist",
+    "advancement.tfcre.pickrocks.description": "Who said rocks are useless? At least you can use them to smash your own toes.",
+    "advancement.tfcre.stonetools.title": "Stone Miracle",
+    "advancement.tfcre.stonetools.description": "You've invented humanity's greatest creation: a stone that can smash other stones.",
+    "tfcre.tip.firewood": "Unlike vanilla TFC, charcoal and campfire fuel require firewood.",
+    "tfcre.tip.claypots": "Clay pots in ruins seem to contain items left by ancient people.",
+    "tip.tfcre.stonetool.burnish": "§2Repairable§r times",
+    "recipes.tfcre.stonetool.burnish": "Tools will be repaired instead of turning into display outputs.",
     "item.tfc.ore.poor_aluminum": "Poor Bauxite",
     "item.tfc.ore.normal_aluminum": "Bauxite",
     "item.tfc.ore.rich_aluminum": "Rich Bauxite",
@@ -64,18 +71,14 @@
     "item.tfcre.music_disc_again.desc": "Again - Abyss_Lasea",
     "key.keybinding.key": "TFCRe Controls",
     "key.kubejs.sit": "Sit",
-    
     "boll.tfcre.thanks": "Sincere thanks to you",
-    
     "notify.kubejs.toolrecipes.title": "§aCrafting Guide",
-    "notify.kubejs.toolrecipes.text": "  Besides direct crafting, you can now also craft tools by holding the head component in your main hand and sticks in your offhand",
-    
+    "notify.kubejs.toolrecipes.text": "  Besides direct crafting, you can now also craft tools by holding the component in your main hand and sticks in your offhand.",
     "layer.origins.origins.name": "Occupation",
     "layer.origins.tfcre.civilians": "Civilian",
-    "description.origins.tfcre.civilians": "§bLeave your old life behind and step into a new world§r \nCivilians are ordinary people from all walks of life. While they have no outstanding skills or advantages, they also lack the drawbacks of specialized professionals.",
+    "description.origins.tfcre.civilians": "§bLeave your old life behind and step into a new world§r \nCivilians are ordinary people from all walks of life. While they have no outstanding skills or advantages, they also lack the drawbacks of specialists.",
     "layer.origins.tfcre.hunter": "Hunter",
     "description.origins.tfcre.hunter": "§bRelease arrows, slay beasts. Bring it back for the dying child. In the end, the child couldn't be saved.§r\nHunters are survival experts in wild forests, plains, and mountainous terrain. They fear enclosed underground spaces.",
-
     "power.origins.tfcre.mediocre.name": "§f● Mediocre§r",
     "power.origins.tfcre.mediocre.description": "No positive or negative traits",
     "power.origins.tfcre.focus.name": "§a● Focus§r",
@@ -90,10 +93,8 @@
     "power.origins.tfcre.hyperopia.description": "-15% melee damage",
     "power.origins.tfcre.claustrophobia.name": "§c● Claustrophobia§r",
     "power.origins.tfcre.claustrophobia.description": "-10% mining speed",
-
     "//": "Please do not translate this, it is an icon",
     "travelerstitles.biome.tfc.plains": "\uE586",
-
     "kubejs.ponder.pit_kiln.header": "Pit Kiln",
     "kubejs.ponder.pit_kiln.text_1": "Press '\u0027§aV§r\u0027 to place items"
 }
