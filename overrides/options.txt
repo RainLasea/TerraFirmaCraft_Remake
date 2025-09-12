@@ -1,0 +1,2 @@
+resourcePacks:["vanilla","mod_resources","firmalife_data","file/Icon Xaero\u0027s 1.2 HF.zip","file/Icon - Xaero X FA - v2.4 (1.20.x).zip","file/Vexxed_Visuals_TFC_v1.2.7.1.zip"]
+incompatibleResourcePacks:["firmalife_data","file/Icon Xaero\u0027s 1.2 HF.zip"]

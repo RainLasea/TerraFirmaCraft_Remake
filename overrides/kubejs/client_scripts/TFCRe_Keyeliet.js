@@ -1,10 +1,6 @@
-ClientEvents.init((event) => {
-    $KeyMappingRegistry.register(global.testKey);
-});
-
 ClientEvents.tick((event) => {
     const { player } = event;
-    const { testKey } = global; // 访问 global
+    const { testKey } = global;
 
     if (testKey.consumeClick()) {
         event.player.triggerAnimation("tfcre:sit");

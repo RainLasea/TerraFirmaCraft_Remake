@@ -1,0 +1,18 @@
+{
+  "targets": ["temp"],
+  "passes": [
+    {
+      "name": "blink",
+      "intarget": "minecraft:main",
+      "outtarget": "temp",
+      "uniforms": [
+        { "name": "BlinkIntensity", "type": "float", "count": 1, "values": [1.0] }
+      ]
+    },
+    {
+      "name": "blit",
+      "intarget": "temp",
+      "outtarget": "minecraft:main"
+    }
+  ]
+}

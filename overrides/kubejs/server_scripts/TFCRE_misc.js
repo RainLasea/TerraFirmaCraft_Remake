@@ -3,6 +3,8 @@ const $Boolean = Java.loadClass("java.lang.Boolean");
 const $DoorHingeSide = Java.loadClass("net.minecraft.world.level.block.state.properties.DoorHingeSide");
 const $Direction = Java.loadClass("net.minecraft.core.Direction");
 
+global.applied = false;
+
 BlockEvents.rightClicked(event => {
     if (event.getHand() != "MAIN_HAND") return;
     if (event.player.isShiftKeyDown()) return;
@@ -46,6 +48,13 @@ PlayerEvents.loggedIn(event=>{
         player.stages.add("oneInGame")
     }
 })
+PlayerEvents.loggedIn(event => {
+    const player = event.player;
+    if (!player.stages.has("oneInGame_blink")) {
+        player.stages.add("oneInGame_blink");
+        global.applied = true;
+    }
+});
 PlayerEvents.tick((event) => {
   let { player } = event;
 
@@ -145,30 +154,3 @@ ServerEvents.tick(event => {
         global.drunkLevel = Math.max(0, global.drunkLevel - 0.05);
     }
 });
-
-// ServerEvents.tick(event => {
-//     if (!global.fakeEntities) return;
-
-//     let players = event.server.getPlayerList().getPlayers();
-
-//     for (let uuid in global.fakeEntities) {
-//         let stand = global.fakeEntities[uuid];
-
-//         let player = null;
-//         for (let p of players) {
-//             if (p.uuid.toString() === uuid) {
-//                 player = p;
-//                 break;
-//             }
-//         }
-
-//         if (player && stand) {
-//             stand.setPos(player.getX(), player.getY(), player.getZ());
-//             stand.setYRot(player.getYRot());
-//             stand.setXRot(player.getXRot());
-//         } else {
-//             stand.remove(Entity.RemovalReason.DISCARDED);
-//             delete global.fakeEntities[uuid];
-//         }
-//     }
-// });

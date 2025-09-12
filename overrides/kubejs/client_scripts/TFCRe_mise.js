@@ -1,22 +1,27 @@
-// AnimationJS.playerModel(event => {
-// 	const { playerModel, entity, ageInTicks } = event;
+let time = 0;
 
-// 	if (!isMoving) return;
-// 	// 抖动
-// 	let shakeZ = Math.sin(ageInTicks * 1.5) * 0.05;
-// 	let shakeX = Math.sin(ageInTicks * 1.5 + 1) * 0.02;
-//     // 右臂
-// 	playerModel.rightArm.setRotation(
-// 		-1.9 + shakeX,  // x
-// 		-1.4,           // y
-// 		0.6 + shakeZ    // z
-// 	);
-// 	// 左臂
-// 	playerModel.leftArm.setRotation(
-// 		-1.9 + shakeX,
-// 		1.4,
-// 		-0.6 + shakeZ
-// 	);
-// 	playerModel.rightSleeve.copyFrom(playerModel.rightArm);
-// 	playerModel.leftSleeve.copyFrom(playerModel.leftArm);
-// });
+ClientEvents.tick(event => {
+    if (global.applied) {
+
+        if (time === 0) {
+            VisualJS.applyEffect("blink", true);
+            VisualJS.setUniform(0, "BlinkIntensity", [1.0]);
+        }
+
+        time += 0.16;
+        let intensity = Math.max(0.0, 1.0 - time * 0.05);
+        VisualJS.setUniform(0, "BlinkIntensity", [intensity]);
+
+        if (intensity <= 0.05) {
+            VisualJS.clearEffect();
+            global.applied = false;
+            time = 0;
+        }
+    }
+});
+
+ClientEvents.loggedOut(event => {
+    VisualJS.clearEffect();
+    global.applied = false;
+    time = 0;
+});
